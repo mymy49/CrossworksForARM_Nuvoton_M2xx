@@ -1,0 +1,77 @@
+<!DOCTYPE CrossStudio_Project_File>
+<solution Name="Loader" version="2" target="8">
+  <configuration
+    Name="M2xx_AP_256 Debug"
+    inherited_configurations="M2xx_AP_256;Debug" />
+  <configuration
+    Name="M2xx_AP_256 Release"
+    inherited_configurations="M2xx_AP_256;Release" />
+  <project Name="M2xx Loader">
+    <configuration
+      CMSIS_CORE="Yes"
+      Name="Common"
+      arm_library_optimization="Small"
+      arm_linker_treat_warnings_as_errors="No"
+      arm_target_debug_interface_type="ADIv5"
+      batch_build_configurations="M2xx_AP_128 Release"
+      c_preprocessor_definitions="NO_SYSTEM_INIT;NO_VTOR_CONFIG"
+      c_user_include_directories="$(PackagesDir)/libraries/libmem_drivers"
+      debug_register_definition_file="$(DeviceRegisterDefinitionFile)"
+      gcc_entry_point="Reset_Handler"
+      linker_additional_files="$(StudioDir)/lib/libmem$(LibExt)$(LIB);$(StudioDir)/lib/libmem_loader$(LibExt)$(LIB)"
+      linker_memory_map_file="$(DeviceMemoryMapFile)"
+      linker_section_placement_file="$(ProjectDir)/ram_placement.xml"
+      package_dependencies="CMSIS;libmem_drivers"
+      project_type="Executable"
+      property_groups_file_path="$(PackagesDir)/libraries/CMSIS_5/propertyGroups.xml"
+      target_reset_script="Reset();" />
+    <configuration
+      Name="Debug"
+      c_preprocessor_definitions="DEBUG"
+      gcc_debugging_level="Level 3"
+      gcc_optimization_level="None"
+      hidden="Yes" />
+    <configuration
+      Name="M2xx_AP_256"
+      arm_architecture="v8M_Baseline"
+      arm_core_type="Cortex-M23"
+      arm_endian="Little"
+      arm_fpu_type="None"
+      arm_linker_heap_size="0"
+      arm_linker_stack_size="512"
+      arm_target_device_name="M251KG6AE"
+      build_output_file_name="M251_AP_256_Loader.elf"
+      c_preprocessor_definitions="__M251KG6AE__;__M2xx_FAMILY;__M2xx_SUBFAMILY;ARM_MATH_ARMV8MBL;FLM_ALGORITHM_M2xx_AP_256"
+      c_user_include_directories="$(DeviceIncludePath);$(TargetsDir)/M2xx/CMSIS/StdDriver/inc;$(TargetsDir)/M2xx/CMSIS/Device/Include"
+      linker_keep_symbols="libmem_crc32"
+      macros="DeviceIncludePath=$(TargetsDir)/M2xx/CMSIS/Device/M2xx/Include;DeviceHeaderFile=$(TargetsDir)/M2xx/CMSIS/Device/M2xx/Include/M2xx.h;DeviceMemoryMapFile=$(TargetsDir)/M2xx/XML/M251KG6AE_MemoryMap.xml;DeviceRegisterDefinitionFile=$(TargetsDir)/M2xx/XML/M251_v1_Registers.xml;DeviceSystemFile=$(TargetsDir)/M2xx/Source/system.c;DeviceFamily=M2xx;DeviceSubFamily=M2xx;DeviceFLMSourceFile=M2xx_AP_256_flm.c" />
+    <configuration
+      Name="Release"
+      c_preprocessor_definitions="NDEBUG"
+      gcc_debugging_level="Level 1"
+      gcc_optimization_level="Optimize For Size"
+      hidden="Yes" />
+    <folder Name="CMSIS Files">
+      <file file_name="$(DeviceFLMSourceFile)" />
+      <file file_name="$(DeviceHeaderFile)" />
+      <file file_name="$(DeviceSystemFile)" />
+    </folder>
+    <folder
+      Name="Source Files"
+      exclude="M2xx_AP_256_flm.c"
+      filter="*.c"
+      path="."
+      recurse="No" />
+    <folder Name="System Files">
+      <file file_name="../Source/M2xx_v1_Vectors.s">
+        <configuration Name="Common" file_type="Assembly" />
+      </file>
+      <file file_name="$(PackagesDir)/libraries/libmem_drivers/libmem_flm_driver.c" />
+      <file file_name="../Source/M2xx_Startup.s" />
+      <file file_name="$(TargetsDir)/M2xx/Scripts/M2xx_Target.js">
+        <configuration Name="Common" file_type="Reset Script" />
+      </file>
+      <file file_name="$(StudioDir)/source/thumb_crt0.s" />
+    </folder>
+  </project>
+</solution>

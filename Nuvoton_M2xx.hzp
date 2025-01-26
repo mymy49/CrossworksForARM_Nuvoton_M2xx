@@ -1,0 +1,23 @@
+<!DOCTYPE CrossStudio_Project_File>
+<solution Name="Nuvoton_M2xx" target="8" version="2">
+  <project Name="Nuvoton_M2xx">
+    <configuration
+      Name="Common"
+      combine_command="$(StudioDir)/bin/mkpkg -exclude ./Convert.sh -exclude ./Extract.sh -exclude ./Nuvoton_M2xx.hzp -exclude ./Nuvoton_M2xx.hzs -exclude ./Nuvoton_M2xx.hzq -exclude ./readme.md -exclude ./.gitignore -c &quot;$(CombiningOutputFilePath)&quot; ."
+      combine_output_filepath="$(ProjectDir)/Nuvoton_M2xx.hzq"
+      project_directory=""
+      project_type="Combining" />
+    <folder
+      Name="packages"
+      exclude=""
+      filter=""
+      path="packages"
+      recurse="Yes" />
+    <folder
+      Name="targets"
+      exclude=";targets/M4xx/Source/M4xx_Startup.s"
+      filter=""
+      path="targets"
+      recurse="Yes" />
+  </project>
+</solution>
