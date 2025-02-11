@@ -18,6 +18,6 @@
  *  \param h Pointer to libmem driver handle.
  *  \return The LIBMEM status result.
  */
-int libmem_m480_register_internal_flash_driver(libmem_driver_handle_t *h, uint32_t clk);
+int libmem_m2xx_register_internal_flash_driver(libmem_driver_handle_t *h, uint32_t clk);
 
 #endif

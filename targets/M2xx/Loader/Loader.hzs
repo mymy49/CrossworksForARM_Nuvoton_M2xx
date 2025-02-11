@@ -1,24 +1,53 @@
 <!DOCTYPE CrossStudio_Session_File>
 <session>
  <Bookmarks/>
- <Breakpoints groups="Breakpoints" active_group="Breakpoints"/>
+ <Breakpoints groups="Breakpoints" active_group="Breakpoints">
+  <Exceptions set="HardFault"/>
+ </Breakpoints>
  <ExecutionProfileWindow/>
- <FrameBuffer/>
- <Memory1/>
- <Memory2/>
- <Memory3/>
- <Memory4/>
+ <FrameBuffer>
+  <FrameBufferWindow width="2147483647" keepAspectRatio="0" zoomToFitWindow="0" showGrid="0" addressSpace="" format="0" height="2147483647" autoEvaluate="0" scaleFactor="1" refreshPeriod="0" name="M4xx Loader_M4xx_AP_128 Release" addressText="" accessByDisplayWidth="0"/>
+  <FrameBufferWindow width="2147483647" keepAspectRatio="0" zoomToFitWindow="0" showGrid="0" addressSpace="" format="0" height="2147483647" autoEvaluate="0" scaleFactor="1" refreshPeriod="0" name="M25x Loader_M25x_AP_256 Release" addressText="" accessByDisplayWidth="0"/>
+ </FrameBuffer>
+ <Memory1>
+  <MemoryWindow addressSpace="" dataSize="4" autoEvaluate="0" viewMode="0" viewType="4" addressOrder="0" columnsText="" refreshPeriod="0" name="M4xx Loader_M4xx_AP_128 Release" sizeText="" addressText="0x1F80"/>
+  <MemoryWindow addressSpace="" dataSize="4" autoEvaluate="0" viewMode="0" viewType="4" addressOrder="0" columnsText="" refreshPeriod="0" name="M25x Loader_M25x_AP_256 Release" sizeText="" addressText="0x140"/>
+ </Memory1>
+ <Memory2>
+  <MemoryWindow addressSpace="" dataSize="1" autoEvaluate="0" viewMode="0" viewType="4" addressOrder="0" columnsText="" refreshPeriod="0" name="M4xx Loader_M4xx_AP_128 Release" sizeText="" addressText="0xF80"/>
+  <MemoryWindow addressSpace="" dataSize="1" autoEvaluate="0" viewMode="0" viewType="4" addressOrder="0" columnsText="" refreshPeriod="0" name="M25x Loader_M25x_AP_256 Release" sizeText="" addressText="0xF80"/>
+ </Memory2>
+ <Memory3>
+  <MemoryWindow addressSpace="" dataSize="1" autoEvaluate="0" viewMode="0" viewType="4" addressOrder="0" columnsText="" refreshPeriod="0" name="M4xx Loader_M4xx_AP_128 Release" sizeText="" addressText=""/>
+  <MemoryWindow addressSpace="" dataSize="1" autoEvaluate="0" viewMode="0" viewType="4" addressOrder="0" columnsText="" refreshPeriod="0" name="M25x Loader_M25x_AP_256 Release" sizeText="" addressText=""/>
+ </Memory3>
+ <Memory4>
+  <MemoryWindow addressSpace="" dataSize="1" autoEvaluate="0" viewMode="0" viewType="4" addressOrder="0" columnsText="" refreshPeriod="0" name="M4xx Loader_M4xx_AP_128 Release" sizeText="" addressText=""/>
+  <MemoryWindow addressSpace="" dataSize="1" autoEvaluate="0" viewMode="0" viewType="4" addressOrder="0" columnsText="" refreshPeriod="0" name="M25x Loader_M25x_AP_256 Release" sizeText="" addressText=""/>
+ </Memory4>
  <Project>
   <ProjectSessionItem path="Loader"/>
-  <ProjectSessionItem path="Loader;M2xx Loader"/>
-  <ProjectSessionItem path="Loader;M2xx Loader;Source Files"/>
-  <ProjectSessionItem path="Loader;M2xx Loader;System Files"/>
+  <ProjectSessionItem path="Loader;M25x Loader"/>
+  <ProjectSessionItem path="Loader;M25x Loader;Source Files"/>
+  <ProjectSessionItem path="Loader;M25x Loader;System Files"/>
   <SourceCodeControlLogin password="F9BB6682F5D56822" user="Yoon-Ki Hong &lt;mymy49@nate.com>"/>
  </Project>
- <Register1/>
- <Register2/>
- <Register3/>
- <Register4/>
+ <Register1>
+  <RegisterWindow invisibleNodes="" visibleNodes="CPU - Current Context/r0;CPU - Current Context/r1;CPU - Current Context/r2;CPU - Current Context/r3;CPU - Current Context/r4;CPU - Current Context/r5;CPU - Current Context/r6;CPU - Current Context/r7;CPU - Current Context/r8;CPU - Current Context/r9;CPU - Current Context/r10;CPU - Current Context/r11;CPU - Current Context/r12;CPU - Current Context/sp(r13);CPU - Current Context/lr(r14);CPU - Current Context/pc(r15);CPU - Current Context/apsr;CPU/r0;CPU/r1;CPU/r2;CPU/r3;CPU/r4;CPU/r5;CPU/r6;CPU/r7;CPU/r8;CPU/r9;CPU/r10;CPU/r11;CPU/r12;CPU/sp(r13);CPU/lr(r14);CPU/pc(r15);CPU/xpsr;CPU/MSP;CPU/PSP;CPU/PRIMASK;CPU/BASEPRI;CPU/FAULTMASK;CPU/CONTROL;CPU/internal;CLK/CLK_PWRCTL;CLK/CLK_AHBCLK;CLK/CLK_APBCLK0;CLK/CLK_APBCLK1;CLK/CLK_CLKSEL0;CLK/CLK_CLKSEL1;CLK/CLK_CLKSEL2;CLK/CLK_CLKSEL3;CLK/CLK_CLKDIV0;CLK/CLK_CLKDIV1;CLK/CLK_CLKDIV2;CLK/CLK_CLKDIV3;CLK/CLK_CLKDIV4;CLK/CLK_PCLKDIV;CLK/CLK_PLLCTL;CLK/CLK_STATUS;CLK/CLK_CLKOCTL;CLK/CLK_CLKDCTL;CLK/CLK_CLKDSTS;CLK/CLK_CDUPB;CLK/CLK_CDLOWB;CLK/CLK_PMUCTL;CLK/CLK_PMUSTS;CLK/CLK_LDOCTL;CLK/CLK_SWKDBCTL;CLK/CLK_PASWKCTL;CLK/CLK_PBSWKCTL;CLK/CLK_PCSWKCTL;CLK/CLK_PDSWKCTL;CLK/CLK_IOPDCTL;FMC/FMC_ISPCTL;FMC/FMC_ISPADDR;FMC/FMC_ISPDAT;FMC/FMC_ISPCMD;FMC/FMC_ISPTRG;FMC/FMC_DFBA;FMC/FMC_FTCTL;FMC/FMC_ISPSTS;FMC/FMC_CYCCTL;FMC/FMC_KPKEY0;FMC/FMC_KPKEY1;FMC/FMC_KPKEY2;FMC/FMC_KPKEYTRG;FMC/FMC_KPKEYSTS;FMC/FMC_KPKEYCNT;FMC/FMC_KPCNT;FMC/FMC_MPDAT0;FMC/FMC_MPDAT1;FMC/FMC_MPDAT2;FMC/FMC_MPDAT3;FMC/FMC_MPSTS;FMC/FMC_MPADDR;FMC/FMC_XOMR0STS;FMC/FMC_XOMR1STS;FMC/FMC_XOMR2STS;FMC/FMC_XOMR3STS;FMC/FMC_XOMSTS" binaryNodes="" asciiNodes="" openNodes="CPU - Current Context;FMC;FMC/FMC_ISPCTL;FMC/FMC_ISPTRG;FMC/FMC_ISPSTS;FMC/FMC_MPSTS" name="M4xx Loader_M4xx_AP_128 Release" decimalNodes="" octalNodes="" unsignedNodes=""/>
+  <RegisterWindow invisibleNodes="" visibleNodes="CPU - Current Context/r0;CPU - Current Context/r1;CPU - Current Context/r2;CPU - Current Context/r3;CPU - Current Context/r4;CPU - Current Context/r5;CPU - Current Context/r6;CPU - Current Context/r7;CPU - Current Context/r8;CPU - Current Context/r9;CPU - Current Context/r10;CPU - Current Context/r11;CPU - Current Context/r12;CPU - Current Context/sp(r13);CPU - Current Context/lr(r14);CPU - Current Context/pc(r15);CPU - Current Context/apsr;CPU/r0;CPU/r1;CPU/r2;CPU/r3;CPU/r4;CPU/r5;CPU/r6;CPU/r7;CPU/r8;CPU/r9;CPU/r10;CPU/r11;CPU/r12;CPU/sp(r13);CPU/lr(r14);CPU/pc(r15);CPU/xpsr;CPU/MSP;CPU/PSP;CPU/PRIMASK;CPU/CONTROL;CPU/internal" binaryNodes="" asciiNodes="" openNodes="CPU - Current Context" name="M25x Loader_M25x_AP_256 Release" decimalNodes="" octalNodes="" unsignedNodes=""/>
+ </Register1>
+ <Register2>
+  <RegisterWindow invisibleNodes="" visibleNodes="CPU - Current Context/r0;CPU - Current Context/r1;CPU - Current Context/r2;CPU - Current Context/r3;CPU - Current Context/r4;CPU - Current Context/r5;CPU - Current Context/r6;CPU - Current Context/r7;CPU - Current Context/r8;CPU - Current Context/r9;CPU - Current Context/r10;CPU - Current Context/r11;CPU - Current Context/r12;CPU - Current Context/sp(r13);CPU - Current Context/lr(r14);CPU - Current Context/pc(r15);CPU - Current Context/apsr;CPU/r0;CPU/r1;CPU/r2;CPU/r3;CPU/r4;CPU/r5;CPU/r6;CPU/r7;CPU/r8;CPU/r9;CPU/r10;CPU/r11;CPU/r12;CPU/sp(r13);CPU/lr(r14);CPU/pc(r15);CPU/xpsr;CPU/MSP;CPU/PSP;CPU/PRIMASK;CPU/BASEPRI;CPU/FAULTMASK;CPU/CONTROL;CPU/internal" binaryNodes="" asciiNodes="" openNodes="CPU - Current Context" name="M4xx Loader_M4xx_AP_128 Release" decimalNodes="" octalNodes="" unsignedNodes=""/>
+  <RegisterWindow invisibleNodes="" visibleNodes="CPU - Current Context/r0;CPU - Current Context/r1;CPU - Current Context/r2;CPU - Current Context/r3;CPU - Current Context/r4;CPU - Current Context/r5;CPU - Current Context/r6;CPU - Current Context/r7;CPU - Current Context/r8;CPU - Current Context/r9;CPU - Current Context/r10;CPU - Current Context/r11;CPU - Current Context/r12;CPU - Current Context/sp(r13);CPU - Current Context/lr(r14);CPU - Current Context/pc(r15);CPU - Current Context/apsr;CPU/r0;CPU/r1;CPU/r2;CPU/r3;CPU/r4;CPU/r5;CPU/r6;CPU/r7;CPU/r8;CPU/r9;CPU/r10;CPU/r11;CPU/r12;CPU/sp(r13);CPU/lr(r14);CPU/pc(r15);CPU/xpsr;CPU/MSP;CPU/PSP;CPU/PRIMASK;CPU/CONTROL;CPU/internal" binaryNodes="" asciiNodes="" openNodes="CPU - Current Context" name="M25x Loader_M25x_AP_256 Release" decimalNodes="" octalNodes="" unsignedNodes=""/>
+ </Register2>
+ <Register3>
+  <RegisterWindow invisibleNodes="" visibleNodes="CPU - Current Context/r0;CPU - Current Context/r1;CPU - Current Context/r2;CPU - Current Context/r3;CPU - Current Context/r4;CPU - Current Context/r5;CPU - Current Context/r6;CPU - Current Context/r7;CPU - Current Context/r8;CPU - Current Context/r9;CPU - Current Context/r10;CPU - Current Context/r11;CPU - Current Context/r12;CPU - Current Context/sp(r13);CPU - Current Context/lr(r14);CPU - Current Context/pc(r15);CPU - Current Context/apsr;CPU/r0;CPU/r1;CPU/r2;CPU/r3;CPU/r4;CPU/r5;CPU/r6;CPU/r7;CPU/r8;CPU/r9;CPU/r10;CPU/r11;CPU/r12;CPU/sp(r13);CPU/lr(r14);CPU/pc(r15);CPU/xpsr;CPU/MSP;CPU/PSP;CPU/PRIMASK;CPU/BASEPRI;CPU/FAULTMASK;CPU/CONTROL;CPU/internal" binaryNodes="" asciiNodes="" openNodes="CPU - Current Context" name="M4xx Loader_M4xx_AP_128 Release" decimalNodes="" octalNodes="" unsignedNodes=""/>
+  <RegisterWindow invisibleNodes="" visibleNodes="CPU - Current Context/r0;CPU - Current Context/r1;CPU - Current Context/r2;CPU - Current Context/r3;CPU - Current Context/r4;CPU - Current Context/r5;CPU - Current Context/r6;CPU - Current Context/r7;CPU - Current Context/r8;CPU - Current Context/r9;CPU - Current Context/r10;CPU - Current Context/r11;CPU - Current Context/r12;CPU - Current Context/sp(r13);CPU - Current Context/lr(r14);CPU - Current Context/pc(r15);CPU - Current Context/apsr;CPU/r0;CPU/r1;CPU/r2;CPU/r3;CPU/r4;CPU/r5;CPU/r6;CPU/r7;CPU/r8;CPU/r9;CPU/r10;CPU/r11;CPU/r12;CPU/sp(r13);CPU/lr(r14);CPU/pc(r15);CPU/xpsr;CPU/MSP;CPU/PSP;CPU/PRIMASK;CPU/CONTROL;CPU/internal" binaryNodes="" asciiNodes="" openNodes="CPU - Current Context" name="M25x Loader_M25x_AP_256 Release" decimalNodes="" octalNodes="" unsignedNodes=""/>
+ </Register3>
+ <Register4>
+  <RegisterWindow invisibleNodes="" visibleNodes="CPU - Current Context/r0;CPU - Current Context/r1;CPU - Current Context/r2;CPU - Current Context/r3;CPU - Current Context/r4;CPU - Current Context/r5;CPU - Current Context/r6;CPU - Current Context/r7;CPU - Current Context/r8;CPU - Current Context/r9;CPU - Current Context/r10;CPU - Current Context/r11;CPU - Current Context/r12;CPU - Current Context/sp(r13);CPU - Current Context/lr(r14);CPU - Current Context/pc(r15);CPU - Current Context/apsr;CPU/r0;CPU/r1;CPU/r2;CPU/r3;CPU/r4;CPU/r5;CPU/r6;CPU/r7;CPU/r8;CPU/r9;CPU/r10;CPU/r11;CPU/r12;CPU/sp(r13);CPU/lr(r14);CPU/pc(r15);CPU/xpsr;CPU/MSP;CPU/PSP;CPU/PRIMASK;CPU/BASEPRI;CPU/FAULTMASK;CPU/CONTROL;CPU/internal" binaryNodes="" asciiNodes="" openNodes="CPU - Current Context" name="M4xx Loader_M4xx_AP_128 Release" decimalNodes="" octalNodes="" unsignedNodes=""/>
+  <RegisterWindow invisibleNodes="" visibleNodes="CPU - Current Context/r0;CPU - Current Context/r1;CPU - Current Context/r2;CPU - Current Context/r3;CPU - Current Context/r4;CPU - Current Context/r5;CPU - Current Context/r6;CPU - Current Context/r7;CPU - Current Context/r8;CPU - Current Context/r9;CPU - Current Context/r10;CPU - Current Context/r11;CPU - Current Context/r12;CPU - Current Context/sp(r13);CPU - Current Context/lr(r14);CPU - Current Context/pc(r15);CPU - Current Context/apsr;CPU/r0;CPU/r1;CPU/r2;CPU/r3;CPU/r4;CPU/r5;CPU/r6;CPU/r7;CPU/r8;CPU/r9;CPU/r10;CPU/r11;CPU/r12;CPU/sp(r13);CPU/lr(r14);CPU/pc(r15);CPU/xpsr;CPU/MSP;CPU/PSP;CPU/PRIMASK;CPU/CONTROL;CPU/internal" binaryNodes="" asciiNodes="" openNodes="CPU - Current Context" name="M25x Loader_M25x_AP_256 Release" decimalNodes="" octalNodes="" unsignedNodes=""/>
+ </Register4>
  <TargetWindow programLoadAddress="" programSize="" programMemoryInterface="" programFileName="" programFileType="" programAction=""/>
  <Threads>
   <ThreadsWindow showLists=""/>
@@ -39,13 +68,19 @@
   <Watches active="0" update="Never"/>
  </Watch4>
  <Files>
-  <SessionOpenFile windowGroup="DockEditLeft" x="35" y="18" useTextEdit="1" path="loader.c" left="0" top="2" codecName="Default"/>
-  <SessionOpenFile windowGroup="DockEditLeft" x="14" y="65" useTextEdit="1" path="../../../../../.rowley_associates_limited/CrossWorks for ARM/v5/packages/targets/M480/Source/M480_Startup.s" left="0" top="65" codecName="Default"/>
-  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="12" useTextEdit="1" path="../../../../../.rowley_associates_limited/CrossWorks for ARM/v5/packages/libraries/libmem_drivers/libmem_flm_driver.c" left="0" top="0" codecName="Default"/>
-  <SessionOpenFile windowGroup="DockEditLeft" x="14" y="219" useTextEdit="1" path="/usr/share/crossworks_for_arm_5.1/source/thumb_crt0.s" left="0" top="213" codecName="Default"/>
-  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="29" useTextEdit="1" path="libmem_m2xx_internal_flash_driver.c" left="0" top="14" codecName="Default"/>
-  <SessionOpenFile windowGroup="DockEditLeft" x="13" y="56" useTextEdit="1" path="../Source/M2xx_Startup.s" left="0" top="42" codecName="Default"/>
-  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="0" useTextEdit="1" path="../Source/M2xx_v1_Vectors.s" left="0" selected="1" top="897" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="197" useTextEdit="1" path="../../../../../.rowley_associates_limited/CrossWorks for ARM/v5/packages/targets/M4xx/CMSIS/Device/M43x/Include/M43x.h" left="0" top="197" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="43" y="31" useTextEdit="1" path="loader.c" left="0" selected="1" top="21" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="67" useTextEdit="1" path="../../../../../.rowley_associates_limited/CrossWorks for ARM/v5/packages/libraries/libmem_drivers/libmem_flm_driver.c" left="0" top="56" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="16" y="937" useTextEdit="1" path="/usr/share/crossworks_for_arm_5.1/include/libmem.h" left="2" top="922" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="86" useTextEdit="1" path="../../../../../.rowley_associates_limited/CrossWorks for ARM/v5/packages/targets/M4xx/CMSIS/Device/M43x/Source/system_M43x.c" left="0" top="11" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="40" y="62" useTextEdit="1" path="../../../../../.rowley_associates_limited/CrossWorks for ARM/v5/packages/targets/M4xx/Source/M4xx_Startup.s" left="0" top="56" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="262" useTextEdit="1" path="/usr/share/crossworks_for_arm_5.2/source/thumb_crt0.s" left="0" top="247" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="8" y="303" useTextEdit="1" path="/usr/share/crossworks_for_arm_5.2/include/libmem_loader.h" left="0" top="278" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="12" y="1056" useTextEdit="1" path="/usr/share/crossworks_for_arm_5.2/include/libmem.h" left="0" top="1047" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="30" y="37" useTextEdit="1" path="libmem_m2xx_internal_flash_driver.c" left="0" top="27" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="6" y="114" useTextEdit="1" path="../../../../../.rowley_associates_limited/CrossWorks for ARM/v5/packages/targets/M2xx/Source/M2xx_Startup.s" left="0" top="111" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="60" y="16" useTextEdit="1" path="libmem_m2xx.h" left="0" top="0" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="110" useTextEdit="1" path="M25x_AP_256_flm.c" left="0" top="70" codecName="Default"/>
  </Files>
- <ARMCrossStudioWindow activeProject="M2xx Loader" fileDialogDefaultFilter="*" autoConnectTarget="" buildConfiguration="M2xx_AP_256 Release" sessionSettings="" debugSearchFileMap="" fileDialogInitialDirectory="/home/mymy49/Packages/CrossworksForARM_Nuvoton_M2xx/targets/M2xx/Source" debugSearchPath="" autoConnectCapabilities="0"/>
+ <ARMCrossStudioWindow activeProject="M25x Loader" fileDialogDefaultFilter="*.c" autoConnectTarget="CMSIS-DAP" buildConfiguration="M25x_AP_256 Release" sessionSettings="" debugSearchFileMap="" fileDialogInitialDirectory="" debugSearchPath="" autoConnectCapabilities="1151"/>
 </session>

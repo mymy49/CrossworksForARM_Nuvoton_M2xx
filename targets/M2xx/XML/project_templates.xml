@@ -20,7 +20,7 @@
 		<property name="linker_scanf_fmt_level" />
 		<property name="linker_scanf_fp_enabled" />
 		<property name="linker_scanf_character_group_matching_enabled" />
-		<property name="c_user_include_directories" value="$(DeviceIncludePath);$(TargetsDir)/M2xx/CMSIS/StdDriver/inc;$(TargetsDir)/M2xx/CMSIS/Device/Include;" />
+		<property name="c_user_include_directories" value="$(DeviceIncludePath);$(StdDriverDir);$(TargetsDir)/M2xx/CMSIS/Device/Include;" />
 		<property name="property_groups_file_path" value="$(TargetsDir)/M2xx/XML/property_groups.xml" />
 		<propertygroup name="Target" value="M251KG6AE" choose="Yes" />
 		<propertygroup name="Placement" value="Flash" choose="Yes" />
@@ -50,38 +50,36 @@
 			<file name="Source/main.c" source="$(TargetsDir)/M2xx/Source/main.c" />
 		</folder>
 		<folder name="StdDriver Files">
-			<file name="$(TargetsDir)/M2xx/CMSIS/StdDriver/src/acmp.c" />
-			<file name="$(TargetsDir)/M2xx/CMSIS/StdDriver/src/bpwm.c" />
-			<file name="$(TargetsDir)/M2xx/CMSIS/StdDriver/src/clk.c" />
-			<file name="$(TargetsDir)/M2xx/CMSIS/StdDriver/src/crc.c" />
-			<file name="$(TargetsDir)/M2xx/CMSIS/StdDriver/src/crypto.c" />
-			<file name="$(TargetsDir)/M2xx/CMSIS/StdDriver/src/dac.c" />
-			<file name="$(TargetsDir)/M2xx/CMSIS/StdDriver/src/eadc.c" />
-			<file name="$(TargetsDir)/M2xx/CMSIS/StdDriver/src/ebi.c" />
-			<file name="$(TargetsDir)/M2xx/CMSIS/StdDriver/src/fmc.c" />
-			<file name="$(TargetsDir)/M2xx/CMSIS/StdDriver/src/gpio.c" />
-			<file name="$(TargetsDir)/M2xx/CMSIS/StdDriver/src/i2c.c" />
-			<file name="$(TargetsDir)/M2xx/CMSIS/StdDriver/src/lcd.c" />
-			<file name="$(TargetsDir)/M2xx/CMSIS/StdDriver/src/opa.c" />
-			<file name="$(TargetsDir)/M2xx/CMSIS/StdDriver/src/pdma.c" />
-			<file name="$(TargetsDir)/M2xx/CMSIS/StdDriver/src/psio.c" />
-			<file name="$(TargetsDir)/M2xx/CMSIS/StdDriver/src/pwm.c" />
-			<file name="$(TargetsDir)/M2xx/CMSIS/StdDriver/src/qspi.c" />
-			<file name="$(TargetsDir)/M2xx/CMSIS/StdDriver/src/rtc.c" />
-			<file name="$(TargetsDir)/M2xx/CMSIS/StdDriver/src/sc.c" />
-			<file name="$(TargetsDir)/M2xx/CMSIS/StdDriver/src/scuart.c" />
-			<file name="$(TargetsDir)/M2xx/CMSIS/StdDriver/src/spi.c" />
-			<file name="$(TargetsDir)/M2xx/CMSIS/StdDriver/src/sys.c" />
-			<file name="$(TargetsDir)/M2xx/CMSIS/StdDriver/src/timer.c" />
-			<file name="$(TargetsDir)/M2xx/CMSIS/StdDriver/src/timer_pwm.c" />
-			<file name="$(TargetsDir)/M2xx/CMSIS/StdDriver/src/tk.c" />
-			<file name="$(TargetsDir)/M2xx/CMSIS/StdDriver/src/uart.c" />
-			<file name="$(TargetsDir)/M2xx/CMSIS/StdDriver/src/usbd.c" />
-			<file name="$(TargetsDir)/M2xx/CMSIS/StdDriver/src/usci_i2c.c" />
-			<file name="$(TargetsDir)/M2xx/CMSIS/StdDriver/src/usci_spi.c" />
-			<file name="$(TargetsDir)/M2xx/CMSIS/StdDriver/src/usci_uart.c" />
-			<file name="$(TargetsDir)/M2xx/CMSIS/StdDriver/src/wdt.c" />
-			<file name="$(TargetsDir)/M2xx/CMSIS/StdDriver/src/wwdt.c" />
+			<file name="$(TargetsDir)/M2xx/CMSIS/StdDriver/M25x/src/acmp.c" />
+			<file name="$(TargetsDir)/M2xx/CMSIS/StdDriver/M25x/src/bpwm.c" />
+			<file name="$(TargetsDir)/M2xx/CMSIS/StdDriver/M25x/src/clk.c" />
+			<file name="$(TargetsDir)/M2xx/CMSIS/StdDriver/M25x/src/crc.c" />
+			<file name="$(TargetsDir)/M2xx/CMSIS/StdDriver/M25x/src/crypto.c" />
+			<file name="$(TargetsDir)/M2xx/CMSIS/StdDriver/M25x/src/dac.c" />
+			<file name="$(TargetsDir)/M2xx/CMSIS/StdDriver/M25x/src/eadc.c" />
+			<file name="$(TargetsDir)/M2xx/CMSIS/StdDriver/M25x/src/ebi.c" />
+			<file name="$(TargetsDir)/M2xx/CMSIS/StdDriver/M25x/src/fmc.c" />
+			<file name="$(TargetsDir)/M2xx/CMSIS/StdDriver/M25x/src/gpio.c" />
+			<file name="$(TargetsDir)/M2xx/CMSIS/StdDriver/M25x/src/i2c.c" />
+			<file name="$(TargetsDir)/M2xx/CMSIS/StdDriver/M25x/src/lcd.c" />
+			<file name="$(TargetsDir)/M2xx/CMSIS/StdDriver/M25x/src/pdma.c" />
+			<file name="$(TargetsDir)/M2xx/CMSIS/StdDriver/M25x/src/pwm.c" />
+			<file name="$(TargetsDir)/M2xx/CMSIS/StdDriver/M25x/src/qspi.c" />
+			<file name="$(TargetsDir)/M2xx/CMSIS/StdDriver/M25x/src/rtc.c" />
+			<file name="$(TargetsDir)/M2xx/CMSIS/StdDriver/M25x/src/sc.c" />
+			<file name="$(TargetsDir)/M2xx/CMSIS/StdDriver/M25x/src/scuart.c" />
+			<file name="$(TargetsDir)/M2xx/CMSIS/StdDriver/M25x/src/spi.c" />
+			<file name="$(TargetsDir)/M2xx/CMSIS/StdDriver/M25x/src/sys.c" />
+			<file name="$(TargetsDir)/M2xx/CMSIS/StdDriver/M25x/src/timer.c" />
+			<file name="$(TargetsDir)/M2xx/CMSIS/StdDriver/M25x/src/timer_pwm.c" />
+			<file name="$(TargetsDir)/M2xx/CMSIS/StdDriver/M25x/src/tk.c" />
+			<file name="$(TargetsDir)/M2xx/CMSIS/StdDriver/M25x/src/uart.c" />
+			<file name="$(TargetsDir)/M2xx/CMSIS/StdDriver/M25x/src/usbd.c" />
+			<file name="$(TargetsDir)/M2xx/CMSIS/StdDriver/M25x/src/usci_i2c.c" />
+			<file name="$(TargetsDir)/M2xx/CMSIS/StdDriver/M25x/src/usci_spi.c" />
+			<file name="$(TargetsDir)/M2xx/CMSIS/StdDriver/M25x/src/usci_uart.c" />
+			<file name="$(TargetsDir)/M2xx/CMSIS/StdDriver/M25x/src/wdt.c" />
+			<file name="$(TargetsDir)/M2xx/CMSIS/StdDriver/M25x/src/wwdt.c" />
 		</folder>
 		<folder name="System Files">
 			<file name="$(StudioDir)/source/thumb_crt0.s" expand="no">
@@ -97,7 +95,6 @@
 	<project cpu_manufacturer="Nuvoton" cpu_name="M2xx" cpu_generic_name="M2xx" board_manufacturer="" board_name="" name="M2xx C/C++ Executable" description="A C/C++ executable for Nuvoton M2xx in baremetal." type="Executable" template_name="Nuvoton M2xx_EXE">
 		<configuration name="THUMB Debug" />
 		<configuration name="THUMB Release" />
-	    <configuration name="$(Configuration)" />
 
 		<property name="target_get_partname_script" value="GetPartName()" />
 		<property name="target_match_partname_script" value="MatchPartName(&quot;$(Target)&quot;)" />
@@ -115,9 +112,9 @@
 		<property name="linker_scanf_fmt_level" />
 		<property name="linker_scanf_fp_enabled" />
 		<property name="linker_scanf_character_group_matching_enabled" />
-		<property name="c_user_include_directories" value="$(DeviceIncludePath);$(TargetsDir)/M2xx/CMSIS/StdDriver/inc;$(TargetsDir)/M2xx/CMSIS/Device/Include;" />
+		<property name="c_user_include_directories" value="$(DeviceIncludePath);$(StdDriverDir);" />
 		<property name="property_groups_file_path" value="$(TargetsDir)/M2xx/XML/property_groups.xml" />
-		<propertygroup name="Target" value="M433SE8AE" choose="Yes" />
+		<propertygroup name="Target" value="M251KG6AE" choose="Yes" />
 		<propertygroup name="Placement" value="Flash" choose="Yes" />
 		<property name="CMSIS_CORE" value="Yes" />
 
@@ -127,7 +124,6 @@
 		<property name="debug_register_definition_file" value="$(DeviceRegisterDefinitionFile)" />
 		<property name="linker_memory_map_file" value="$(DeviceMemoryMapFile)" />
 		<property name="gcc_entry_point" value="Reset_Handler" />
-		<property name="arm_linker_process_stack_size" value="0" choose="Yes" />
 
 		<folder name="CMSIS Files">
 			<file name="$(DeviceHeaderFile)" expand="no" />
@@ -138,14 +134,11 @@
 			</file>
 		</folder>
 		<folder name="Source Files" filter="c;cpp;cxx;cc;h;s;asm;inc">
-			<file name="Source/main.cpp" source="$(TargetsDir)/M2xx/Source/main.c" />
-			<file name="Source/system.cpp" source="$(TargetsDir)/M2xx/Source/system.c" expand="no">
+			<file name="Source/main.c" source="$(TargetsDir)/M2xx/Source/main.c" />
+			<file name="Source/system.c" source="$(TargetsDir)/M2xx/Source/system.c" expand="no">
 				<property name="default_code_section" value=".init" />
 				<property name="default_const_section" value=".init_rodata" />
 			</file>
-		</folder>
-		<folder name="StdDriver Files">
-			<file name="$(TargetsDir)/M2xx/CMSIS/StdDriver/src/clk.c" expand="no" />
 		</folder>
 		<folder name="System Files">
 			<file name="$(StudioDir)/source/thumb_crt0.s" expand="no">

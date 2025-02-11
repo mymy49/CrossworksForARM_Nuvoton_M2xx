@@ -10,6 +10,6 @@
 #ifndef __NUMICRO_H__
 #define __NUMICRO_H__
 
-#include "M2xx.h"
+#include "M251.h"
 
 #endif  /* __NUMICRO_H__ */

@@ -72,13 +72,6 @@ void SystemCoreClockUpdate(void)
  */
 void SystemInit(void)
 {
-    /* Set access cycle for CPU @ 48MHz */
-    FMC->CYCCTL = (FMC->CYCCTL & ~FMC_CYCCTL_CYCLE_Msk) | (3 << FMC_CYCCTL_CYCLE_Pos) | 0x100;
-
-#if defined (__VTOR_PRESENT) && (__VTOR_PRESENT == 1U)
-    SCB->VTOR = (uint32_t) &__Vectors;
-#endif
-
 #if defined (__ARM_FEATURE_CMSE) && (__ARM_FEATURE_CMSE == 3U)
     TZ_SAU_Setup();
     SCU_Setup();

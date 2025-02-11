@@ -1,19 +1,19 @@
 Archive member included to satisfy reference by file (symbol)
 
 /usr/share/crossworks_for_arm_5.1/lib/libmem_v8mbl_t_le_eabi_small.a(libmem_unity.o)
-                              M2xx Loader M2xx_AP_256 Release/libmem_flm_driver.o (libmem_register_driver)
+                              M25x Loader M25x_AP_256 Release/libmem_flm_driver.o (libmem_register_driver)
 /usr/share/crossworks_for_arm_5.1/lib/libmem_v8mbl_t_le_eabi_small.a(libmem_crc32_direct.o)
-                              M2xx Loader M2xx_AP_256 Release/libmem_flm_driver.o (libmem_crc32_direct)
+                              M25x Loader M25x_AP_256 Release/libmem_flm_driver.o (libmem_crc32_direct)
 /usr/share/crossworks_for_arm_5.1/lib/libmem_loader_v8mbl_t_le_eabi_small.a(libmem_rpc_loader_start.o)
-                              M2xx Loader M2xx_AP_256 Release/loader.o (libmem_rpc_loader_start)
+                              M25x Loader M25x_AP_256 Release/loader.o (libmem_rpc_loader_start)
 /usr/share/crossworks_for_arm_5.1/lib/libmem_loader_v8mbl_t_le_eabi_small.a(libmem_rpc_loader_exit.o)
-                              M2xx Loader M2xx_AP_256 Release/loader.o (libmem_rpc_loader_exit)
+                              M25x Loader M25x_AP_256 Release/loader.o (libmem_rpc_loader_exit)
 /usr/share/crossworks_for_arm_5.1/lib/libmem_loader_v8mbl_t_le_eabi_small.a(libmem_rpc_loader_op.o)
                               /usr/share/crossworks_for_arm_5.1/lib/libmem_loader_v8mbl_t_le_eabi_small.a(libmem_rpc_loader_start.o) (libmem_rpc_loader_op)
 /usr/share/crossworks_for_arm_5.1/lib/libc_v8mbl_t_le_eabi_small.a(libc_asm.o)
                               /usr/share/crossworks_for_arm_5.1/lib/libmem_v8mbl_t_le_eabi_small.a(libmem_unity.o) (__gnu_thumb1_case_uqi)
 /usr/share/crossworks_for_arm_5.1/lib/libc_v8mbl_t_le_eabi_small.a(libc2_asm.o)
-                              M2xx Loader M2xx_AP_256 Release/libmem_flm_driver.o (memcpy)
+                              M25x Loader M25x_AP_256 Release/libmem_flm_driver.o (memcpy)
 /usr/share/crossworks_for_arm_5.1/lib/libc_v8mbl_t_le_eabi_small.a(libvfprintf.o)
                               (__vfprintf_float_long_long)
 /usr/share/crossworks_for_arm_5.1/lib/libc_v8mbl_t_le_eabi_small.a(libvfscanf.o)
@@ -39,72 +39,69 @@ Archive member included to satisfy reference by file (symbol)
 
 Discarded input sections
 
- .text          0x00000000        0x0 M2xx Loader M2xx_AP_256 Release/M2xx_AP_256_flm.o
- .data          0x00000000        0x0 M2xx Loader M2xx_AP_256 Release/M2xx_AP_256_flm.o
- .bss           0x00000000        0x0 M2xx Loader M2xx_AP_256 Release/M2xx_AP_256_flm.o
+ .text          0x00000000        0x0 M25x Loader M25x_AP_256 Release/M25x_AP_256_flm.o
+ .data          0x00000000        0x0 M25x Loader M25x_AP_256 Release/M25x_AP_256_flm.o
+ .bss           0x00000000        0x0 M25x Loader M25x_AP_256 Release/M25x_AP_256_flm.o
  .text.BlankCheck
-                0x00000000        0x4 M2xx Loader M2xx_AP_256 Release/M2xx_AP_256_flm.o
+                0x00000000        0x4 M25x Loader M25x_AP_256 Release/M25x_AP_256_flm.o
  .text.EraseChip
-                0x00000000        0x4 M2xx Loader M2xx_AP_256 Release/M2xx_AP_256_flm.o
- .text.Verify   0x00000000        0x4 M2xx Loader M2xx_AP_256 Release/M2xx_AP_256_flm.o
- .text          0x00000000        0x0 M2xx Loader M2xx_AP_256 Release/system.o
- .data          0x00000000        0x0 M2xx Loader M2xx_AP_256 Release/system.o
- .bss           0x00000000        0x0 M2xx Loader M2xx_AP_256 Release/system.o
+                0x00000000        0x4 M25x Loader M25x_AP_256 Release/M25x_AP_256_flm.o
+ .text.Verify   0x00000000        0x4 M25x Loader M25x_AP_256 Release/M25x_AP_256_flm.o
+ .text          0x00000000        0x0 M25x Loader M25x_AP_256 Release/system_M25x.o
+ .data          0x00000000        0x0 M25x Loader M25x_AP_256 Release/system_M25x.o
+ .bss           0x00000000        0x0 M25x Loader M25x_AP_256 Release/system_M25x.o
  .text.SystemCoreClockUpdate
-                0x00000000        0x2 M2xx Loader M2xx_AP_256 Release/system.o
- .text          0x00000000        0x0 M2xx Loader M2xx_AP_256 Release/libmem_m2xx_internal_flash_driver.o
- .data          0x00000000        0x0 M2xx Loader M2xx_AP_256 Release/libmem_m2xx_internal_flash_driver.o
- .bss           0x00000000        0x0 M2xx Loader M2xx_AP_256 Release/libmem_m2xx_internal_flash_driver.o
- .text          0x00000000        0x0 M2xx Loader M2xx_AP_256 Release/loader.o
- .data          0x00000000        0x0 M2xx Loader M2xx_AP_256 Release/loader.o
- .bss           0x00000000        0x0 M2xx Loader M2xx_AP_256 Release/loader.o
- .text          0x00000000        0x0 M2xx Loader M2xx_AP_256 Release/M2xx_v1_Vectors.o
- .data          0x00000000        0x0 M2xx Loader M2xx_AP_256 Release/M2xx_v1_Vectors.o
- .bss           0x00000000        0x0 M2xx Loader M2xx_AP_256 Release/M2xx_v1_Vectors.o
- .init          0x00000000       0xd4 M2xx Loader M2xx_AP_256 Release/M2xx_v1_Vectors.o
- .vectors       0x00000000      0x1f4 M2xx Loader M2xx_AP_256 Release/M2xx_v1_Vectors.o
- .debug_line    0x00000000      0x109 M2xx Loader M2xx_AP_256 Release/M2xx_v1_Vectors.o
- .debug_info    0x00000000       0x24 M2xx Loader M2xx_AP_256 Release/M2xx_v1_Vectors.o
- .debug_abbrev  0x00000000       0x14 M2xx Loader M2xx_AP_256 Release/M2xx_v1_Vectors.o
- .debug_aranges
-                0x00000000       0x20 M2xx Loader M2xx_AP_256 Release/M2xx_v1_Vectors.o
- .debug_str     0x00000000       0xc3 M2xx Loader M2xx_AP_256 Release/M2xx_v1_Vectors.o
- .ARM.attributes
-                0x00000000       0x20 M2xx Loader M2xx_AP_256 Release/M2xx_v1_Vectors.o
- .text          0x00000000        0x0 M2xx Loader M2xx_AP_256 Release/libmem_flm_driver.o
- .data          0x00000000        0x0 M2xx Loader M2xx_AP_256 Release/libmem_flm_driver.o
- .bss           0x00000000        0x0 M2xx Loader M2xx_AP_256 Release/libmem_flm_driver.o
+                0x00000000       0x58 M25x Loader M25x_AP_256 Release/system_M25x.o
+ .text.Uart0DefaultMPF
+                0x00000000       0x2c M25x Loader M25x_AP_256 Release/system_M25x.o
+ .rodata.gau32ClkSrcTbl
+                0x00000000       0x20 M25x Loader M25x_AP_256 Release/system_M25x.o
+ .data.PllClock
+                0x00000000        0x4 M25x Loader M25x_AP_256 Release/system_M25x.o
+ .data.CyclesPerUs
+                0x00000000        0x4 M25x Loader M25x_AP_256 Release/system_M25x.o
+ .data.SystemCoreClock
+                0x00000000        0x4 M25x Loader M25x_AP_256 Release/system_M25x.o
+ .text          0x00000000        0x0 M25x Loader M25x_AP_256 Release/libmem_m2xx_internal_flash_driver.o
+ .data          0x00000000        0x0 M25x Loader M25x_AP_256 Release/libmem_m2xx_internal_flash_driver.o
+ .bss           0x00000000        0x0 M25x Loader M25x_AP_256 Release/libmem_m2xx_internal_flash_driver.o
+ .text          0x00000000        0x0 M25x Loader M25x_AP_256 Release/loader.o
+ .data          0x00000000        0x0 M25x Loader M25x_AP_256 Release/loader.o
+ .bss           0x00000000        0x0 M25x Loader M25x_AP_256 Release/loader.o
+ .text          0x00000000        0x0 M25x Loader M25x_AP_256 Release/libmem_flm_driver.o
+ .data          0x00000000        0x0 M25x Loader M25x_AP_256 Release/libmem_flm_driver.o
+ .bss           0x00000000        0x0 M25x Loader M25x_AP_256 Release/libmem_flm_driver.o
  .text.libmem_crc32_impl
-                0x00000000       0x44 M2xx Loader M2xx_AP_256 Release/libmem_flm_driver.o
+                0x00000000       0x44 M25x Loader M25x_AP_256 Release/libmem_flm_driver.o
  .text.libmem_read_impl
-                0x00000000       0x48 M2xx Loader M2xx_AP_256 Release/libmem_flm_driver.o
+                0x00000000       0x48 M25x Loader M25x_AP_256 Release/libmem_flm_driver.o
  .text.libmem_register_flm_driver_with_verify
-                0x00000000       0x50 M2xx Loader M2xx_AP_256 Release/libmem_flm_driver.o
+                0x00000000       0x50 M25x Loader M25x_AP_256 Release/libmem_flm_driver.o
  .rodata.ext_driver_functions
-                0x00000000        0xc M2xx Loader M2xx_AP_256 Release/libmem_flm_driver.o
- .text          0x00000000        0x0 M2xx Loader M2xx_AP_256 Release/M2xx_Startup.o
- .data          0x00000000        0x0 M2xx Loader M2xx_AP_256 Release/M2xx_Startup.o
- .bss           0x00000000        0x0 M2xx Loader M2xx_AP_256 Release/M2xx_Startup.o
- .text          0x00000000        0x0 M2xx Loader M2xx_AP_256 Release/thumb_crt0.o
- .data          0x00000000        0x0 M2xx Loader M2xx_AP_256 Release/thumb_crt0.o
- .bss           0x00000000        0x0 M2xx Loader M2xx_AP_256 Release/thumb_crt0.o
+                0x00000000        0xc M25x Loader M25x_AP_256 Release/libmem_flm_driver.o
+ .text          0x00000000        0x0 M25x Loader M25x_AP_256 Release/M2xx_Startup.o
+ .data          0x00000000        0x0 M25x Loader M25x_AP_256 Release/M2xx_Startup.o
+ .bss           0x00000000        0x0 M25x Loader M25x_AP_256 Release/M2xx_Startup.o
+ .text          0x00000000        0x0 M25x Loader M25x_AP_256 Release/thumb_crt0.o
+ .data          0x00000000        0x0 M25x Loader M25x_AP_256 Release/thumb_crt0.o
+ .bss           0x00000000        0x0 M25x Loader M25x_AP_256 Release/thumb_crt0.o
  .text.__aeabi_read_tp
-                0x00000000        0x8 M2xx Loader M2xx_AP_256 Release/thumb_crt0.o
- .text.abort    0x00000000        0x2 M2xx Loader M2xx_AP_256 Release/thumb_crt0.o
+                0x00000000        0x8 M25x Loader M25x_AP_256 Release/thumb_crt0.o
+ .text.abort    0x00000000        0x2 M25x Loader M25x_AP_256 Release/thumb_crt0.o
  .text.__assert
-                0x00000000        0x2 M2xx Loader M2xx_AP_256 Release/thumb_crt0.o
+                0x00000000        0x2 M25x Loader M25x_AP_256 Release/thumb_crt0.o
  .text.__assert_func
-                0x00000000        0x2 M2xx Loader M2xx_AP_256 Release/thumb_crt0.o
+                0x00000000        0x2 M25x Loader M25x_AP_256 Release/thumb_crt0.o
  .text.__aeabi_assert
-                0x00000000        0x2 M2xx Loader M2xx_AP_256 Release/thumb_crt0.o
+                0x00000000        0x2 M25x Loader M25x_AP_256 Release/thumb_crt0.o
  .text.__sync_synchronize
-                0x00000000        0x2 M2xx Loader M2xx_AP_256 Release/thumb_crt0.o
+                0x00000000        0x2 M25x Loader M25x_AP_256 Release/thumb_crt0.o
  .text.__semihost
-                0x00000000        0x4 M2xx Loader M2xx_AP_256 Release/thumb_crt0.o
- .stack         0x00000000        0x0 M2xx Loader M2xx_AP_256 Release/thumb_crt0.o
+                0x00000000        0x4 M25x Loader M25x_AP_256 Release/thumb_crt0.o
+ .stack         0x00000000        0x0 M25x Loader M25x_AP_256 Release/thumb_crt0.o
  .stack_process
-                0x00000000        0x0 M2xx Loader M2xx_AP_256 Release/thumb_crt0.o
- .heap          0x00000000        0x0 M2xx Loader M2xx_AP_256 Release/thumb_crt0.o
+                0x00000000        0x0 M25x Loader M25x_AP_256 Release/thumb_crt0.o
+ .heap          0x00000000        0x0 M25x Loader M25x_AP_256 Release/thumb_crt0.o
  .text          0x00000000        0x0 /usr/share/crossworks_for_arm_5.1/lib/libmem_v8mbl_t_le_eabi_small.a(libmem_unity.o)
  .data          0x00000000        0x0 /usr/share/crossworks_for_arm_5.1/lib/libmem_v8mbl_t_le_eabi_small.a(libmem_unity.o)
  .bss           0x00000000        0x0 /usr/share/crossworks_for_arm_5.1/lib/libmem_v8mbl_t_le_eabi_small.a(libmem_unity.o)
@@ -3767,7 +3764,7 @@ Linker script and memory map
                 0x00000000                        __STACKSIZE_PROCESS__ = 0x0
                 0x00000000                        __STACKSIZE_SVC__ = 0x0
                 0x00000000                        __STACKSIZE_UND__ = 0x0
-                0x00000200                        __STACKSIZE__ = 0x200
+                0x00000800                        __STACKSIZE__ = 0x800
                 0x00000000                        __do_debug_operation = __do_debug_operation_mempoll
                 0x00000000                        __vfprintf = __vfprintf_float_long_long
                 0x00000000                        __vfscanf = __vfscanf_float_long_long_cc
@@ -3794,9 +3791,9 @@ Linker script and memory map
 .init           0x20000000      0x16c
                 0x20000000                        __init_start__ = .
  *(.init .init.*)
- .init          0x20000000       0x14 M2xx Loader M2xx_AP_256 Release/M2xx_Startup.o
+ .init          0x20000000       0x14 M25x Loader M25x_AP_256 Release/M2xx_Startup.o
                 0x20000000                Reset_Handler
- .init          0x20000014      0x158 M2xx Loader M2xx_AP_256 Release/thumb_crt0.o
+ .init          0x20000014      0x158 M25x Loader M25x_AP_256 Release/thumb_crt0.o
                 0x20000014                _start
                 0x200000b4                _Exit
                 0x200000b4                exit
@@ -3815,89 +3812,92 @@ Linker script and memory map
                 0x00000001                        . = ASSERT (((__init_rodata_start__ == __init_rodata_end__) || ((__init_rodata_end__ - __RAM_segment_start__) <= __RAM_segment_size__)), error: .init_rodata is too large to fit in RAM memory segment)
                 0x2000016c                        __text_load_start__ = ALIGN (__init_rodata_end__, 0x4)
 
-.text           0x2000016c      0x49e
+.text           0x2000016c      0x5ae
                 0x2000016c                        __text_start__ = .
  *(.text .text.* .gnu.linkonce.t.* .glue_7t .glue_7 .gcc_except_table .ARM.extab* .gnu.linkonce.armextab.*)
  .glue_7        0x2000016c        0x0 linker stubs
  .glue_7t       0x2000016c        0x0 linker stubs
- .text.Init     0x2000016c        0x4 M2xx Loader M2xx_AP_256 Release/M2xx_AP_256_flm.o
-                0x2000016c                Init
- .text.UnInit   0x20000170        0x4 M2xx Loader M2xx_AP_256 Release/M2xx_AP_256_flm.o
-                0x20000170                UnInit
+ .text.executeCommand
+                0x2000016c       0x24 M25x Loader M25x_AP_256 Release/M25x_AP_256_flm.o
+                0x2000016c                executeCommand
+ .text.Init     0x20000190       0x88 M25x Loader M25x_AP_256 Release/M25x_AP_256_flm.o
+                0x20000190                Init
+ .text.UnInit   0x20000218       0x1c M25x Loader M25x_AP_256 Release/M25x_AP_256_flm.o
+                0x20000218                UnInit
  .text.EraseSector
-                0x20000174        0x4 M2xx Loader M2xx_AP_256 Release/M2xx_AP_256_flm.o
-                0x20000174                EraseSector
+                0x20000234       0x30 M25x Loader M25x_AP_256 Release/M25x_AP_256_flm.o
+                0x20000234                EraseSector
  .text.ProgramPage
-                0x20000178        0x4 M2xx Loader M2xx_AP_256 Release/M2xx_AP_256_flm.o
-                0x20000178                ProgramPage
+                0x20000264       0x34 M25x Loader M25x_AP_256 Release/M25x_AP_256_flm.o
+                0x20000264                ProgramPage
  .text.SystemInit
-                0x2000017c        0x2 M2xx Loader M2xx_AP_256 Release/system.o
-                0x2000017c                SystemInit
- *fill*         0x2000017e        0x2 
- .text.libmem_m480_register_internal_flash_driver
-                0x20000180       0x28 M2xx Loader M2xx_AP_256 Release/libmem_m2xx_internal_flash_driver.o
-                0x20000180                libmem_m480_register_internal_flash_driver
+                0x20000298        0x2 M25x Loader M25x_AP_256 Release/system_M25x.o
+                0x20000298                SystemInit
+ *fill*         0x2000029a        0x2 
+ .text.libmem_m2xx_register_internal_flash_driver
+                0x2000029c       0x28 M25x Loader M25x_AP_256 Release/libmem_m2xx_internal_flash_driver.o
+                0x2000029c                libmem_m2xx_register_internal_flash_driver
  .text.startup.main
-                0x200001a8       0x40 M2xx Loader M2xx_AP_256 Release/loader.o
-                0x200001a8                main
+                0x200002c4       0x40 M25x Loader M25x_AP_256 Release/loader.o
+                0x200002c4                main
  .text.flash_write_page
-                0x200001e8       0x2c M2xx Loader M2xx_AP_256 Release/libmem_flm_driver.o
+                0x20000304       0x2c M25x Loader M25x_AP_256 Release/libmem_flm_driver.o
  .text.set_flm_fnc
-                0x20000214       0x44 M2xx Loader M2xx_AP_256 Release/libmem_flm_driver.o
+                0x20000330       0x44 M25x Loader M25x_AP_256 Release/libmem_flm_driver.o
  .text.libmem_flush_impl
-                0x20000258       0x24 M2xx Loader M2xx_AP_256 Release/libmem_flm_driver.o
+                0x20000374       0x24 M25x Loader M25x_AP_256 Release/libmem_flm_driver.o
  .text.libmem_erase_impl
-                0x2000027c       0x34 M2xx Loader M2xx_AP_256 Release/libmem_flm_driver.o
+                0x20000398       0x34 M25x Loader M25x_AP_256 Release/libmem_flm_driver.o
  .text.flash_erase_sector
-                0x200002b0       0x24 M2xx Loader M2xx_AP_256 Release/libmem_flm_driver.o
+                0x200003cc       0x24 M25x Loader M25x_AP_256 Release/libmem_flm_driver.o
  .text.libmem_write_impl
-                0x200002d4       0x34 M2xx Loader M2xx_AP_256 Release/libmem_flm_driver.o
+                0x200003f0       0x34 M25x Loader M25x_AP_256 Release/libmem_flm_driver.o
  .text.libmem_register_flm_driver
-                0x20000308       0x4c M2xx Loader M2xx_AP_256 Release/libmem_flm_driver.o
-                0x20000308                libmem_register_flm_driver
+                0x20000424       0x4c M25x Loader M25x_AP_256 Release/libmem_flm_driver.o
+                0x20000424                libmem_register_flm_driver
  .text.libmem.libmem_register_driver
-                0x20000354       0x28 /usr/share/crossworks_for_arm_5.1/lib/libmem_v8mbl_t_le_eabi_small.a(libmem_unity.o)
-                0x20000354                libmem_register_driver
+                0x20000470       0x28 /usr/share/crossworks_for_arm_5.1/lib/libmem_v8mbl_t_le_eabi_small.a(libmem_unity.o)
+                0x20000470                libmem_register_driver
  .text.libmem.libmem_get_driver
-                0x2000037c       0x40 /usr/share/crossworks_for_arm_5.1/lib/libmem_v8mbl_t_le_eabi_small.a(libmem_unity.o)
-                0x2000037c                libmem_get_driver
+                0x20000498       0x40 /usr/share/crossworks_for_arm_5.1/lib/libmem_v8mbl_t_le_eabi_small.a(libmem_unity.o)
+                0x20000498                libmem_get_driver
  .text.libmem.libmem_crc32
-                0x200003bc       0x2c /usr/share/crossworks_for_arm_5.1/lib/libmem_v8mbl_t_le_eabi_small.a(libmem_unity.o)
-                0x200003bc                libmem_crc32
+                0x200004d8       0x2c /usr/share/crossworks_for_arm_5.1/lib/libmem_v8mbl_t_le_eabi_small.a(libmem_unity.o)
+                0x200004d8                libmem_crc32
  .text.libmem.libmem_driver_paged_write_init
-                0x200003e8       0x1c /usr/share/crossworks_for_arm_5.1/lib/libmem_v8mbl_t_le_eabi_small.a(libmem_unity.o)
-                0x200003e8                libmem_driver_paged_write_init
+                0x20000504       0x1c /usr/share/crossworks_for_arm_5.1/lib/libmem_v8mbl_t_le_eabi_small.a(libmem_unity.o)
+                0x20000504                libmem_driver_paged_write_init
  .text.libmem.libmem_driver_paged_write_flush
-                0x20000404       0x1e /usr/share/crossworks_for_arm_5.1/lib/libmem_v8mbl_t_le_eabi_small.a(libmem_unity.o)
-                0x20000404                libmem_driver_paged_write_flush
+                0x20000520       0x1e /usr/share/crossworks_for_arm_5.1/lib/libmem_v8mbl_t_le_eabi_small.a(libmem_unity.o)
+                0x20000520                libmem_driver_paged_write_flush
  .text.libmem.libmem_driver_paged_write
-                0x20000422       0x9e /usr/share/crossworks_for_arm_5.1/lib/libmem_v8mbl_t_le_eabi_small.a(libmem_unity.o)
-                0x20000422                libmem_driver_paged_write
+                0x2000053e       0x9e /usr/share/crossworks_for_arm_5.1/lib/libmem_v8mbl_t_le_eabi_small.a(libmem_unity.o)
+                0x2000053e                libmem_driver_paged_write
  .text.libmem.libmem_foreach_sector_in_range_ex
-                0x200004c0       0xb8 /usr/share/crossworks_for_arm_5.1/lib/libmem_v8mbl_t_le_eabi_small.a(libmem_unity.o)
-                0x200004c0                libmem_foreach_sector_in_range_ex
+                0x200005dc       0xb8 /usr/share/crossworks_for_arm_5.1/lib/libmem_v8mbl_t_le_eabi_small.a(libmem_unity.o)
+                0x200005dc                libmem_foreach_sector_in_range_ex
  .text.libmem.libmem_foreach_sector_in_range
-                0x20000578       0x1a /usr/share/crossworks_for_arm_5.1/lib/libmem_v8mbl_t_le_eabi_small.a(libmem_unity.o)
-                0x20000578                libmem_foreach_sector_in_range
- *fill*         0x20000592        0xe 
- .text.libmem   0x200005a0       0x34 /usr/share/crossworks_for_arm_5.1/lib/libmem_v8mbl_t_le_eabi_small.a(libmem_crc32_direct.o)
-                0x200005a0                libmem_crc32_direct
- .text          0x200005d4        0x4 /usr/share/crossworks_for_arm_5.1/lib/libmem_loader_v8mbl_t_le_eabi_small.a(libmem_rpc_loader_start.o)
-                0x200005d4                libmem_rpc_loader_start
- .text          0x200005d8        0x4 /usr/share/crossworks_for_arm_5.1/lib/libmem_loader_v8mbl_t_le_eabi_small.a(libmem_rpc_loader_exit.o)
-                0x200005d8                libmem_rpc_loader_exit
- *fill*         0x200005dc        0x4 
- .text          0x200005e0       0x14 /usr/share/crossworks_for_arm_5.1/lib/libmem_loader_v8mbl_t_le_eabi_small.a(libmem_rpc_loader_op.o)
-                0x200005e0                libmem_rpc_loader_op
+                0x20000694       0x1a /usr/share/crossworks_for_arm_5.1/lib/libmem_v8mbl_t_le_eabi_small.a(libmem_unity.o)
+                0x20000694                libmem_foreach_sector_in_range
+ *fill*         0x200006ae        0x2 
+ .text.libmem   0x200006b0       0x34 /usr/share/crossworks_for_arm_5.1/lib/libmem_v8mbl_t_le_eabi_small.a(libmem_crc32_direct.o)
+                0x200006b0                libmem_crc32_direct
+ .text          0x200006e4        0x4 /usr/share/crossworks_for_arm_5.1/lib/libmem_loader_v8mbl_t_le_eabi_small.a(libmem_rpc_loader_start.o)
+                0x200006e4                libmem_rpc_loader_start
+ .text          0x200006e8        0x4 /usr/share/crossworks_for_arm_5.1/lib/libmem_loader_v8mbl_t_le_eabi_small.a(libmem_rpc_loader_exit.o)
+                0x200006e8                libmem_rpc_loader_exit
+ *fill*         0x200006ec        0x4 
+ .text          0x200006f0       0x14 /usr/share/crossworks_for_arm_5.1/lib/libmem_loader_v8mbl_t_le_eabi_small.a(libmem_rpc_loader_op.o)
+                0x200006f0                libmem_rpc_loader_op
  .text.libc.memcpy
-                0x200005f4       0x16 /usr/share/crossworks_for_arm_5.1/lib/libc_v8mbl_t_le_eabi_small.a(libc2_asm.o)
-                0x200005f4                memcpy
-                0x200005f4                __aeabi_memcpy
-                0x200005f4                __aeabi_memcpy4
-                0x200005f4                __aeabi_memcpy8
-                0x2000060a                        __text_end__ = (__text_start__ + SIZEOF (.text))
-                0x0000049e                        __text_size__ = SIZEOF (.text)
-                0x2000060a                        __text_load_end__ = __text_end__
+                0x20000704       0x16 /usr/share/crossworks_for_arm_5.1/lib/libc_v8mbl_t_le_eabi_small.a(libc2_asm.o)
+                0x20000704                memcpy
+                0x20000704                __aeabi_memcpy
+                0x20000704                __aeabi_memcpy4
+                0x20000704                __aeabi_memcpy8
+                0x2000071a                        __text_end__ = (__text_start__ + SIZEOF (.text))
+                0x000005ae                        __text_size__ = SIZEOF (.text)
+                0x2000071a                        __text_load_end__ = __text_end__
 
 .vfp11_veneer   0x00000000        0x0
  .vfp11_veneer  0x00000000        0x0 linker stubs
@@ -3906,176 +3906,176 @@ Linker script and memory map
  .v4_bx         0x00000000        0x0 linker stubs
 
 .iplt           0x00000000        0x0
- .iplt          0x00000000        0x0 M2xx Loader M2xx_AP_256 Release/libmem_m2xx_internal_flash_driver.o
+ .iplt          0x00000000        0x0 M25x Loader M25x_AP_256 Release/M25x_AP_256_flm.o
                 0x00000001                        . = ASSERT (((__text_start__ == __text_end__) || ((__text_end__ - __RAM_segment_start__) <= __RAM_segment_size__)), error: .text is too large to fit in RAM memory segment)
-                0x2000060c                        __dtors_load_start__ = ALIGN (__text_end__, 0x4)
+                0x2000071c                        __dtors_load_start__ = ALIGN (__text_end__, 0x4)
 
-.dtors          0x2000060c        0x0
-                0x2000060c                        __dtors_start__ = .
+.dtors          0x2000071c        0x0
+                0x2000071c                        __dtors_start__ = .
  *(SORT_BY_NAME(.dtors.*))
  *(.dtors)
  *(.fini_array)
  *(SORT_BY_NAME(.fini_array.*))
-                0x2000060c                        __dtors_end__ = (__dtors_start__ + SIZEOF (.dtors))
+                0x2000071c                        __dtors_end__ = (__dtors_start__ + SIZEOF (.dtors))
                 0x00000000                        __dtors_size__ = SIZEOF (.dtors)
-                0x2000060c                        __dtors_load_end__ = __dtors_end__
+                0x2000071c                        __dtors_load_end__ = __dtors_end__
                 0x00000001                        . = ASSERT (((__dtors_start__ == __dtors_end__) || ((__dtors_end__ - __RAM_segment_start__) <= __RAM_segment_size__)), error: .dtors is too large to fit in RAM memory segment)
-                0x2000060c                        __ctors_load_start__ = ALIGN (__dtors_end__, 0x4)
+                0x2000071c                        __ctors_load_start__ = ALIGN (__dtors_end__, 0x4)
 
-.ctors          0x2000060c        0x0
-                0x2000060c                        __ctors_start__ = .
+.ctors          0x2000071c        0x0
+                0x2000071c                        __ctors_start__ = .
  *(SORT_BY_NAME(.ctors.*))
  *(.ctors)
  *(.init_array)
  *(SORT_BY_NAME(.init_array.*))
-                0x2000060c                        __ctors_end__ = (__ctors_start__ + SIZEOF (.ctors))
+                0x2000071c                        __ctors_end__ = (__ctors_start__ + SIZEOF (.ctors))
                 0x00000000                        __ctors_size__ = SIZEOF (.ctors)
-                0x2000060c                        __ctors_load_end__ = __ctors_end__
+                0x2000071c                        __ctors_load_end__ = __ctors_end__
                 0x00000001                        . = ASSERT (((__ctors_start__ == __ctors_end__) || ((__ctors_end__ - __RAM_segment_start__) <= __RAM_segment_size__)), error: .ctors is too large to fit in RAM memory segment)
-                0x2000060c                        __data_load_start__ = ALIGN (__ctors_end__, 0x4)
+                0x2000071c                        __data_load_start__ = ALIGN (__ctors_end__, 0x4)
 
-.data           0x2000060c        0x0
-                0x2000060c                        __data_start__ = .
+.data           0x2000071c        0x0
+                0x2000071c                        __data_start__ = .
  *(.data .data.* .gnu.linkonce.d.*)
-                0x2000060c                        __data_end__ = (__data_start__ + SIZEOF (.data))
+                0x2000071c                        __data_end__ = (__data_start__ + SIZEOF (.data))
                 0x00000000                        __data_size__ = SIZEOF (.data)
-                0x2000060c                        __data_load_end__ = __data_end__
+                0x2000071c                        __data_load_end__ = __data_end__
 
 .igot.plt       0x00000000        0x0
- .igot.plt      0x00000000        0x0 M2xx Loader M2xx_AP_256 Release/libmem_m2xx_internal_flash_driver.o
+ .igot.plt      0x00000000        0x0 M25x Loader M25x_AP_256 Release/M25x_AP_256_flm.o
                 0x00000001                        . = ASSERT (((__data_start__ == __data_end__) || ((__data_end__ - __RAM_segment_start__) <= __RAM_segment_size__)), error: .data is too large to fit in RAM memory segment)
-                0x2000060c                        __rodata_load_start__ = ALIGN (__data_end__, 0x4)
+                0x2000071c                        __rodata_load_start__ = ALIGN (__data_end__, 0x4)
 
-.rodata         0x2000060c       0x28
-                0x2000060c                        __rodata_start__ = .
+.rodata         0x2000071c       0x28
+                0x2000071c                        __rodata_start__ = .
  *(.rodata .rodata.* .gnu.linkonce.r.* .data.rel.ro .data.rel.ro.*)
  .rodata.geometry
-                0x2000060c       0x10 M2xx Loader M2xx_AP_256 Release/libmem_m2xx_internal_flash_driver.o
+                0x2000071c       0x10 M25x Loader M25x_AP_256 Release/libmem_m2xx_internal_flash_driver.o
  .rodata.driver_functions
-                0x2000061c       0x18 M2xx Loader M2xx_AP_256 Release/libmem_flm_driver.o
-                0x20000634                        __rodata_end__ = (__rodata_start__ + SIZEOF (.rodata))
+                0x2000072c       0x18 M25x Loader M25x_AP_256 Release/libmem_flm_driver.o
+                0x20000744                        __rodata_end__ = (__rodata_start__ + SIZEOF (.rodata))
                 0x00000028                        __rodata_size__ = SIZEOF (.rodata)
-                0x20000634                        __rodata_load_end__ = __rodata_end__
+                0x20000744                        __rodata_load_end__ = __rodata_end__
 
 .rel.dyn        0x00000000        0x0
- .rel.iplt      0x00000000        0x0 M2xx Loader M2xx_AP_256 Release/libmem_m2xx_internal_flash_driver.o
+ .rel.iplt      0x00000000        0x0 M25x Loader M25x_AP_256 Release/M25x_AP_256_flm.o
                 0x00000001                        . = ASSERT (((__rodata_start__ == __rodata_end__) || ((__rodata_end__ - __RAM_segment_start__) <= __RAM_segment_size__)), error: .rodata is too large to fit in RAM memory segment)
-                0x20000634                        __ARM.exidx_load_start__ = ALIGN (__rodata_end__, 0x4)
+                0x20000744                        __ARM.exidx_load_start__ = ALIGN (__rodata_end__, 0x4)
 
-.ARM.exidx      0x20000634        0x0
-                0x20000634                        __ARM.exidx_start__ = .
-                0x20000634                        __exidx_start = __ARM.exidx_start__
+.ARM.exidx      0x20000744        0x0
+                0x20000744                        __ARM.exidx_start__ = .
+                0x20000744                        __exidx_start = __ARM.exidx_start__
  *(.ARM.exidx .ARM.exidx.*)
-                0x20000634                        __ARM.exidx_end__ = (__ARM.exidx_start__ + SIZEOF (.ARM.exidx))
+                0x20000744                        __ARM.exidx_end__ = (__ARM.exidx_start__ + SIZEOF (.ARM.exidx))
                 0x00000000                        __ARM.exidx_size__ = SIZEOF (.ARM.exidx)
-                0x20000634                        __exidx_end = __ARM.exidx_end__
-                0x20000634                        __ARM.exidx_load_end__ = __ARM.exidx_end__
+                0x20000744                        __exidx_end = __ARM.exidx_end__
+                0x20000744                        __ARM.exidx_load_end__ = __ARM.exidx_end__
                 0x00000001                        . = ASSERT (((__ARM.exidx_start__ == __ARM.exidx_end__) || ((__ARM.exidx_end__ - __RAM_segment_start__) <= __RAM_segment_size__)), error: .ARM.exidx is too large to fit in RAM memory segment)
-                0x20000634                        __bss_load_start__ = ALIGN (__ARM.exidx_end__, 0x4)
+                0x20000744                        __bss_load_start__ = ALIGN (__ARM.exidx_end__, 0x4)
 
-.bss            0x20000634     0x1028
-                0x20000634                        __bss_start__ = .
+.bss            0x20000744     0x1028
+                0x20000744                        __bss_start__ = .
  *(.bss .bss.* .gnu.linkonce.b.*)
  .bss.write_buffer
-                0x20000634     0x1000 M2xx Loader M2xx_AP_256 Release/libmem_m2xx_internal_flash_driver.o
+                0x20000744     0x1000 M25x Loader M25x_AP_256 Release/libmem_m2xx_internal_flash_driver.o
  .bss.currentFnc.0
-                0x20001634        0x4 M2xx Loader M2xx_AP_256 Release/libmem_flm_driver.o
- .bss.s_clk     0x20001638        0x4 M2xx Loader M2xx_AP_256 Release/libmem_flm_driver.o
+                0x20001744        0x4 M25x Loader M25x_AP_256 Release/libmem_flm_driver.o
+ .bss.s_clk     0x20001748        0x4 M25x Loader M25x_AP_256 Release/libmem_flm_driver.o
  .bss.paged_write_ctrlblk
-                0x2000163c       0x1c M2xx Loader M2xx_AP_256 Release/libmem_flm_driver.o
+                0x2000174c       0x1c M25x Loader M25x_AP_256 Release/libmem_flm_driver.o
  .bss.libmem.libmem_drivers
-                0x20001658        0x4 /usr/share/crossworks_for_arm_5.1/lib/libmem_v8mbl_t_le_eabi_small.a(libmem_unity.o)
-                0x20001658                libmem_drivers
+                0x20001768        0x4 /usr/share/crossworks_for_arm_5.1/lib/libmem_v8mbl_t_le_eabi_small.a(libmem_unity.o)
+                0x20001768                libmem_drivers
  *(COMMON)
-                0x2000165c                        __bss_end__ = (__bss_start__ + SIZEOF (.bss))
+                0x2000176c                        __bss_end__ = (__bss_start__ + SIZEOF (.bss))
                 0x00001028                        __bss_size__ = SIZEOF (.bss)
-                0x2000165c                        __bss_load_end__ = __bss_end__
+                0x2000176c                        __bss_load_end__ = __bss_end__
                 0x00000001                        . = ASSERT (((__bss_start__ == __bss_end__) || ((__bss_end__ - __RAM_segment_start__) <= __RAM_segment_size__)), error: .bss is too large to fit in RAM memory segment)
-                0x2000165c                        __tbss_load_start__ = ALIGN (__bss_end__, 0x4)
+                0x2000176c                        __tbss_load_start__ = ALIGN (__bss_end__, 0x4)
 
-.tbss           0x2000165c        0x0
-                0x2000165c                        __tbss_start__ = .
+.tbss           0x2000176c        0x0
+                0x2000176c                        __tbss_start__ = .
  *(.tbss .tbss.*)
-                0x2000165c                        __tbss_end__ = (__tbss_start__ + SIZEOF (.tbss))
+                0x2000176c                        __tbss_end__ = (__tbss_start__ + SIZEOF (.tbss))
                 0x00000000                        __tbss_size__ = SIZEOF (.tbss)
-                0x2000165c                        __tbss_load_end__ = __tbss_end__
+                0x2000176c                        __tbss_load_end__ = __tbss_end__
                 0x00000001                        . = ASSERT (((__tbss_start__ == __tbss_end__) || ((__tbss_end__ - __RAM_segment_start__) <= __RAM_segment_size__)), error: .tbss is too large to fit in RAM memory segment)
-                0x2000165c                        __tdata_load_start__ = ALIGN (__tbss_end__, 0x4)
+                0x2000176c                        __tdata_load_start__ = ALIGN (__tbss_end__, 0x4)
 
-.tdata          0x2000165c        0x0
-                0x2000165c                        __tdata_start__ = .
+.tdata          0x2000176c        0x0
+                0x2000176c                        __tdata_start__ = .
  *(.tdata .tdata.*)
-                0x2000165c                        __tdata_end__ = (__tdata_start__ + SIZEOF (.tdata))
+                0x2000176c                        __tdata_end__ = (__tdata_start__ + SIZEOF (.tdata))
                 0x00000000                        __tdata_size__ = SIZEOF (.tdata)
-                0x2000165c                        __tdata_load_end__ = __tdata_end__
+                0x2000176c                        __tdata_load_end__ = __tdata_end__
                 0x00000001                        . = ASSERT (((__tdata_start__ == __tdata_end__) || ((__tdata_end__ - __RAM_segment_start__) <= __RAM_segment_size__)), error: .tdata is too large to fit in RAM memory segment)
-                0x2000165c                        __non_init_load_start__ = ALIGN (__tdata_end__, 0x4)
+                0x2000176c                        __non_init_load_start__ = ALIGN (__tdata_end__, 0x4)
 
-.non_init       0x2000165c        0x0
-                0x2000165c                        __non_init_start__ = .
+.non_init       0x2000176c        0x0
+                0x2000176c                        __non_init_start__ = .
  *(.non_init .non_init.*)
-                0x2000165c                        __non_init_end__ = (__non_init_start__ + SIZEOF (.non_init))
+                0x2000176c                        __non_init_end__ = (__non_init_start__ + SIZEOF (.non_init))
                 0x00000000                        __non_init_size__ = SIZEOF (.non_init)
-                0x2000165c                        __non_init_load_end__ = __non_init_end__
+                0x2000176c                        __non_init_load_end__ = __non_init_end__
                 0x00000001                        . = ASSERT (((__non_init_start__ == __non_init_end__) || ((__non_init_end__ - __RAM_segment_start__) <= __RAM_segment_size__)), error: .non_init is too large to fit in RAM memory segment)
-                0x2000165c                        __heap_load_start__ = ALIGN (__non_init_end__, 0x4)
+                0x2000176c                        __heap_load_start__ = ALIGN (__non_init_end__, 0x4)
 
-.heap           0x2000165c        0x0
-                0x2000165c                        __heap_start__ = .
+.heap           0x2000176c        0x0
+                0x2000176c                        __heap_start__ = .
  *(.heap .heap.*)
-                0x2000165c                        . = ALIGN (MAX ((__heap_start__ + __HEAPSIZE__), .), 0x4)
-                0x2000165c                        __heap_end__ = (__heap_start__ + SIZEOF (.heap))
+                0x2000176c                        . = ALIGN (MAX ((__heap_start__ + __HEAPSIZE__), .), 0x4)
+                0x2000176c                        __heap_end__ = (__heap_start__ + SIZEOF (.heap))
                 0x00000000                        __heap_size__ = SIZEOF (.heap)
-                0x2000165c                        __heap_load_end__ = __heap_end__
+                0x2000176c                        __heap_load_end__ = __heap_end__
                 0x00000001                        . = ASSERT (((__heap_start__ == __heap_end__) || ((__heap_end__ - __RAM_segment_start__) <= __RAM_segment_size__)), error: .heap is too large to fit in RAM memory segment)
                 0x00000001                        . = ASSERT ((__HEAPSIZE__ == ALIGN (__HEAPSIZE__, 0x4)), error: .heap section size does not match alignment)
                 0x00000001                        . = ASSERT ((__heap_size__ <= __HEAPSIZE__), error: .heap section is larger than specified size)
-                0x20001660                        __stack_load_start__ = ALIGN (__heap_end__, 0x8)
+                0x20001770                        __stack_load_start__ = ALIGN (__heap_end__, 0x8)
 
-.stack          0x20001660      0x200
-                0x20001660                        __stack_start__ = .
+.stack          0x20001770      0x800
+                0x20001770                        __stack_start__ = .
  *(.stack .stack.*)
-                0x20001860                        . = ALIGN (MAX ((__stack_start__ + __STACKSIZE__), .), 0x8)
- *fill*         0x20001660      0x200 
-                0x20001860                        __stack_end__ = (__stack_start__ + SIZEOF (.stack))
-                0x00000200                        __stack_size__ = SIZEOF (.stack)
-                0x20001860                        __stack_load_end__ = __stack_end__
+                0x20001f70                        . = ALIGN (MAX ((__stack_start__ + __STACKSIZE__), .), 0x8)
+ *fill*         0x20001770      0x800 
+                0x20001f70                        __stack_end__ = (__stack_start__ + SIZEOF (.stack))
+                0x00000800                        __stack_size__ = SIZEOF (.stack)
+                0x20001f70                        __stack_load_end__ = __stack_end__
                 0x00000001                        . = ASSERT (((__stack_start__ == __stack_end__) || ((__stack_end__ - __RAM_segment_start__) <= __RAM_segment_size__)), error: .stack is too large to fit in RAM memory segment)
                 0x00000001                        . = ASSERT ((__STACKSIZE__ == ALIGN (__STACKSIZE__, 0x8)), error: .stack section size does not match alignment)
                 0x00000001                        . = ASSERT ((__stack_size__ <= __STACKSIZE__), error: .stack section is larger than specified size)
-                0x20001860                        __stack_process_load_start__ = ALIGN (__stack_end__, 0x8)
+                0x20001f70                        __stack_process_load_start__ = ALIGN (__stack_end__, 0x8)
 
-.stack_process  0x20001860        0x0
-                0x20001860                        __stack_process_start__ = .
+.stack_process  0x20001f70        0x0
+                0x20001f70                        __stack_process_start__ = .
  *(.stack_process .stack_process.*)
-                0x20001860                        . = ALIGN (MAX ((__stack_process_start__ + __STACKSIZE_PROCESS__), .), 0x8)
-                0x20001860                        __stack_process_end__ = (__stack_process_start__ + SIZEOF (.stack_process))
+                0x20001f70                        . = ALIGN (MAX ((__stack_process_start__ + __STACKSIZE_PROCESS__), .), 0x8)
+                0x20001f70                        __stack_process_end__ = (__stack_process_start__ + SIZEOF (.stack_process))
                 0x00000000                        __stack_process_size__ = SIZEOF (.stack_process)
-                0x20001860                        __stack_process_load_end__ = __stack_process_end__
+                0x20001f70                        __stack_process_load_end__ = __stack_process_end__
                 0x00000001                        . = ASSERT (((__stack_process_start__ == __stack_process_end__) || ((__stack_process_end__ - __RAM_segment_start__) <= __RAM_segment_size__)), error: .stack_process is too large to fit in RAM memory segment)
                 0x00000001                        . = ASSERT ((__STACKSIZE_PROCESS__ == ALIGN (__STACKSIZE_PROCESS__, 0x8)), error: .stack_process section size does not match alignment)
                 0x00000001                        . = ASSERT ((__stack_process_size__ <= __STACKSIZE_PROCESS__), error: .stack_process section is larger than specified size)
-                0x20001860                        __PrgCode_load_start__ = ALIGN (__stack_process_end__, 0x4)
+                0x20001f70                        __PrgCode_load_start__ = ALIGN (__stack_process_end__, 0x4)
 
-PrgCode         0x20001860        0x0
-                0x20001860                        __PrgCode_start__ = .
+PrgCode         0x20001f70        0x0
+                0x20001f70                        __PrgCode_start__ = .
  *(PrgCode PrgCode.*)
-                0x20001860                        __PrgCode_end__ = (__PrgCode_start__ + SIZEOF (PrgCode))
+                0x20001f70                        __PrgCode_end__ = (__PrgCode_start__ + SIZEOF (PrgCode))
                 0x00000000                        __PrgCode_size__ = SIZEOF (PrgCode)
-                0x20001860                        __PrgCode_load_end__ = __PrgCode_end__
+                0x20001f70                        __PrgCode_load_end__ = __PrgCode_end__
                 0x00000001                        . = ASSERT (((__PrgCode_start__ == __PrgCode_end__) || ((__PrgCode_end__ - __RAM_segment_start__) <= __RAM_segment_size__)), error: PrgCode is too large to fit in RAM memory segment)
-                0x20001860                        __PrgData_load_start__ = ALIGN (__PrgCode_end__, 0x4)
+                0x20001f70                        __PrgData_load_start__ = ALIGN (__PrgCode_end__, 0x4)
 
-PrgData         0x20001860        0x0
-                0x20001860                        __PrgData_start__ = .
+PrgData         0x20001f70        0x0
+                0x20001f70                        __PrgData_start__ = .
  *(PrgData PrgData.*)
-                0x20001860                        __PrgData_end__ = (__PrgData_start__ + SIZEOF (PrgData))
+                0x20001f70                        __PrgData_end__ = (__PrgData_start__ + SIZEOF (PrgData))
                 0x00000000                        __PrgData_size__ = SIZEOF (PrgData)
-                0x20001860                        __PrgData_load_end__ = __PrgData_end__
-                0x20001860                        __RAM_segment_used_end__ = (ALIGN (__PrgCode_end__, 0x4) + SIZEOF (PrgData))
-                0x00001860                        __RAM_segment_used_size__ = (__RAM_segment_used_end__ - __RAM_segment_start__)
+                0x20001f70                        __PrgData_load_end__ = __PrgData_end__
+                0x20001f70                        __RAM_segment_used_end__ = (ALIGN (__PrgCode_end__, 0x4) + SIZEOF (PrgData))
+                0x00001f70                        __RAM_segment_used_size__ = (__RAM_segment_used_end__ - __RAM_segment_start__)
                 0x00000001                        . = ASSERT (((__PrgData_start__ == __PrgData_end__) || ((__PrgData_end__ - __RAM_segment_start__) <= __RAM_segment_size__)), error: PrgData is too large to fit in RAM memory segment)
-                0x00000200                        __STACKSIZE__ = 0x200
+                0x00000800                        __STACKSIZE__ = 0x800
                 0x00000000                        __STACKSIZE_PROCESS__ = 0x0
                 0x00000000                        __STACKSIZE_IRQ__ = 0x0
                 0x00000000                        __STACKSIZE_FIQ__ = 0x0
@@ -4087,109 +4087,108 @@ PrgData         0x20001860        0x0
                 0x00000000                        __vfprintf = __vfprintf_float_long_long
                 0x00000000                        __vfscanf = __vfscanf_float_long_long_cc
 START GROUP
-LOAD M2xx Loader M2xx_AP_256 Release/M2xx_AP_256_flm.o
-LOAD M2xx Loader M2xx_AP_256 Release/system.o
-LOAD M2xx Loader M2xx_AP_256 Release/libmem_m2xx_internal_flash_driver.o
-LOAD M2xx Loader M2xx_AP_256 Release/loader.o
-LOAD M2xx Loader M2xx_AP_256 Release/M2xx_v1_Vectors.o
-LOAD M2xx Loader M2xx_AP_256 Release/libmem_flm_driver.o
-LOAD M2xx Loader M2xx_AP_256 Release/M2xx_Startup.o
-LOAD M2xx Loader M2xx_AP_256 Release/thumb_crt0.o
+LOAD M25x Loader M25x_AP_256 Release/M25x_AP_256_flm.o
+LOAD M25x Loader M25x_AP_256 Release/system_M25x.o
+LOAD M25x Loader M25x_AP_256 Release/libmem_m2xx_internal_flash_driver.o
+LOAD M25x Loader M25x_AP_256 Release/loader.o
+LOAD M25x Loader M25x_AP_256 Release/libmem_flm_driver.o
+LOAD M25x Loader M25x_AP_256 Release/M2xx_Startup.o
+LOAD M25x Loader M25x_AP_256 Release/thumb_crt0.o
 LOAD /usr/share/crossworks_for_arm_5.1/lib/libmem_v8mbl_t_le_eabi_small.a
 LOAD /usr/share/crossworks_for_arm_5.1/lib/libmem_loader_v8mbl_t_le_eabi_small.a
 LOAD /usr/share/crossworks_for_arm_5.1/lib/libm_v8mbl_t_le_eabi_small.a
 LOAD /usr/share/crossworks_for_arm_5.1/lib/libc_v8mbl_t_le_eabi_small.a
 LOAD /usr/share/crossworks_for_arm_5.1/lib/libdebugio_v8mbl_t_le_eabi_small.a
 END GROUP
-OUTPUT(/home/mymy49/Packages/CrossworksForARM_Nuvoton_M2xx/targets/M2xx/Loader/M251_AP_256_Loader.elf elf32-littlearm)
+OUTPUT(/home/mymy49/Packages/CrossworksForARM_Nuvoton_M2xx/targets/M2xx/Loader/M25x_AP_256_Loader.elf elf32-littlearm)
 LOAD linker stubs
 
-.debug_info     0x00000000      0x320
- .debug_info    0x00000000       0xa0 M2xx Loader M2xx_AP_256 Release/M2xx_AP_256_flm.o
- .debug_info    0x000000a0       0x40 M2xx Loader M2xx_AP_256 Release/system.o
- .debug_info    0x000000e0       0x40 M2xx Loader M2xx_AP_256 Release/libmem_m2xx_internal_flash_driver.o
- .debug_info    0x00000120       0x69 M2xx Loader M2xx_AP_256 Release/loader.o
- .debug_info    0x00000189      0x152 M2xx Loader M2xx_AP_256 Release/libmem_flm_driver.o
- .debug_info    0x000002db       0x23 M2xx Loader M2xx_AP_256 Release/M2xx_Startup.o
- .debug_info    0x000002fe       0x22 M2xx Loader M2xx_AP_256 Release/thumb_crt0.o
+.debug_info     0x00000000      0x3ab
+ .debug_info    0x00000000       0xb6 M25x Loader M25x_AP_256 Release/M25x_AP_256_flm.o
+ .debug_info    0x000000b6       0xb5 M25x Loader M25x_AP_256 Release/system_M25x.o
+ .debug_info    0x0000016b       0x40 M25x Loader M25x_AP_256 Release/libmem_m2xx_internal_flash_driver.o
+ .debug_info    0x000001ab       0x69 M25x Loader M25x_AP_256 Release/loader.o
+ .debug_info    0x00000214      0x152 M25x Loader M25x_AP_256 Release/libmem_flm_driver.o
+ .debug_info    0x00000366       0x23 M25x Loader M25x_AP_256 Release/M2xx_Startup.o
+ .debug_info    0x00000389       0x22 M25x Loader M25x_AP_256 Release/thumb_crt0.o
 
-.debug_abbrev   0x00000000      0x1df
- .debug_abbrev  0x00000000       0x5c M2xx Loader M2xx_AP_256 Release/M2xx_AP_256_flm.o
- .debug_abbrev  0x0000005c       0x3b M2xx Loader M2xx_AP_256 Release/system.o
- .debug_abbrev  0x00000097       0x3d M2xx Loader M2xx_AP_256 Release/libmem_m2xx_internal_flash_driver.o
- .debug_abbrev  0x000000d4       0x5f M2xx Loader M2xx_AP_256 Release/loader.o
- .debug_abbrev  0x00000133       0x86 M2xx Loader M2xx_AP_256 Release/libmem_flm_driver.o
- .debug_abbrev  0x000001b9       0x14 M2xx Loader M2xx_AP_256 Release/M2xx_Startup.o
- .debug_abbrev  0x000001cd       0x12 M2xx Loader M2xx_AP_256 Release/thumb_crt0.o
+.debug_abbrev   0x00000000      0x212
+ .debug_abbrev  0x00000000       0x44 M25x Loader M25x_AP_256 Release/M25x_AP_256_flm.o
+ .debug_abbrev  0x00000044       0x86 M25x Loader M25x_AP_256 Release/system_M25x.o
+ .debug_abbrev  0x000000ca       0x3d M25x Loader M25x_AP_256 Release/libmem_m2xx_internal_flash_driver.o
+ .debug_abbrev  0x00000107       0x5f M25x Loader M25x_AP_256 Release/loader.o
+ .debug_abbrev  0x00000166       0x86 M25x Loader M25x_AP_256 Release/libmem_flm_driver.o
+ .debug_abbrev  0x000001ec       0x14 M25x Loader M25x_AP_256 Release/M2xx_Startup.o
+ .debug_abbrev  0x00000200       0x12 M25x Loader M25x_AP_256 Release/thumb_crt0.o
 
-.debug_aranges  0x00000000      0x198
+.debug_aranges  0x00000000      0x1a8
  .debug_aranges
-                0x00000000       0x50 M2xx Loader M2xx_AP_256 Release/M2xx_AP_256_flm.o
+                0x00000000       0x58 M25x Loader M25x_AP_256 Release/M25x_AP_256_flm.o
  .debug_aranges
-                0x00000050       0x28 M2xx Loader M2xx_AP_256 Release/system.o
+                0x00000058       0x30 M25x Loader M25x_AP_256 Release/system_M25x.o
  .debug_aranges
-                0x00000078       0x20 M2xx Loader M2xx_AP_256 Release/libmem_m2xx_internal_flash_driver.o
+                0x00000088       0x20 M25x Loader M25x_AP_256 Release/libmem_m2xx_internal_flash_driver.o
  .debug_aranges
-                0x00000098       0x20 M2xx Loader M2xx_AP_256 Release/loader.o
+                0x000000a8       0x20 M25x Loader M25x_AP_256 Release/loader.o
  .debug_aranges
-                0x000000b8       0x68 M2xx Loader M2xx_AP_256 Release/libmem_flm_driver.o
+                0x000000c8       0x68 M25x Loader M25x_AP_256 Release/libmem_flm_driver.o
  .debug_aranges
-                0x00000120       0x20 M2xx Loader M2xx_AP_256 Release/M2xx_Startup.o
+                0x00000130       0x20 M25x Loader M25x_AP_256 Release/M2xx_Startup.o
  .debug_aranges
-                0x00000140       0x58 M2xx Loader M2xx_AP_256 Release/thumb_crt0.o
+                0x00000150       0x58 M25x Loader M25x_AP_256 Release/thumb_crt0.o
 
-.debug_ranges   0x00000000      0x120
- .debug_ranges  0x00000000       0x40 M2xx Loader M2xx_AP_256 Release/M2xx_AP_256_flm.o
- .debug_ranges  0x00000040       0x18 M2xx Loader M2xx_AP_256 Release/system.o
- .debug_ranges  0x00000058       0x10 M2xx Loader M2xx_AP_256 Release/libmem_m2xx_internal_flash_driver.o
- .debug_ranges  0x00000068       0x10 M2xx Loader M2xx_AP_256 Release/loader.o
- .debug_ranges  0x00000078       0x58 M2xx Loader M2xx_AP_256 Release/libmem_flm_driver.o
- .debug_ranges  0x000000d0       0x50 M2xx Loader M2xx_AP_256 Release/thumb_crt0.o
+.debug_ranges   0x00000000      0x130
+ .debug_ranges  0x00000000       0x48 M25x Loader M25x_AP_256 Release/M25x_AP_256_flm.o
+ .debug_ranges  0x00000048       0x20 M25x Loader M25x_AP_256 Release/system_M25x.o
+ .debug_ranges  0x00000068       0x10 M25x Loader M25x_AP_256 Release/libmem_m2xx_internal_flash_driver.o
+ .debug_ranges  0x00000078       0x10 M25x Loader M25x_AP_256 Release/loader.o
+ .debug_ranges  0x00000088       0x58 M25x Loader M25x_AP_256 Release/libmem_flm_driver.o
+ .debug_ranges  0x000000e0       0x50 M25x Loader M25x_AP_256 Release/thumb_crt0.o
 
-.debug_line     0x00000000      0x899
- .debug_line    0x00000000       0xf3 M2xx Loader M2xx_AP_256 Release/M2xx_AP_256_flm.o
- .debug_line    0x000000f3       0xa7 M2xx Loader M2xx_AP_256 Release/system.o
- .debug_line    0x0000019a      0x11a M2xx Loader M2xx_AP_256 Release/libmem_m2xx_internal_flash_driver.o
- .debug_line    0x000002b4      0x172 M2xx Loader M2xx_AP_256 Release/loader.o
- .debug_line    0x00000426      0x26f M2xx Loader M2xx_AP_256 Release/libmem_flm_driver.o
- .debug_line    0x00000695       0x91 M2xx Loader M2xx_AP_256 Release/M2xx_Startup.o
- .debug_line    0x00000726      0x173 M2xx Loader M2xx_AP_256 Release/thumb_crt0.o
+.debug_line     0x00000000      0xb80
+ .debug_line    0x00000000      0x240 M25x Loader M25x_AP_256 Release/M25x_AP_256_flm.o
+ .debug_line    0x00000240      0x228 M25x Loader M25x_AP_256 Release/system_M25x.o
+ .debug_line    0x00000468      0x11b M25x Loader M25x_AP_256 Release/libmem_m2xx_internal_flash_driver.o
+ .debug_line    0x00000583      0x177 M25x Loader M25x_AP_256 Release/loader.o
+ .debug_line    0x000006fa      0x26f M25x Loader M25x_AP_256 Release/libmem_flm_driver.o
+ .debug_line    0x00000969       0xa4 M25x Loader M25x_AP_256 Release/M2xx_Startup.o
+ .debug_line    0x00000a0d      0x173 M25x Loader M25x_AP_256 Release/thumb_crt0.o
 
-.debug_str      0x00000000      0x65c
- .debug_str     0x00000000      0x65c M2xx Loader M2xx_AP_256 Release/M2xx_AP_256_flm.o
-                                0x1f5 (size before relaxing)
- .debug_str     0x0000065c      0x1e0 M2xx Loader M2xx_AP_256 Release/system.o
- .debug_str     0x0000065c      0x20d M2xx Loader M2xx_AP_256 Release/libmem_m2xx_internal_flash_driver.o
- .debug_str     0x0000065c      0x243 M2xx Loader M2xx_AP_256 Release/loader.o
- .debug_str     0x0000065c      0x389 M2xx Loader M2xx_AP_256 Release/libmem_flm_driver.o
- .debug_str     0x0000065c       0xad M2xx Loader M2xx_AP_256 Release/M2xx_Startup.o
- .debug_str     0x0000065c       0x8c M2xx Loader M2xx_AP_256 Release/thumb_crt0.o
+.debug_str      0x00000000      0x6ed
+ .debug_str     0x00000000      0x6ed M25x Loader M25x_AP_256 Release/M25x_AP_256_flm.o
+                                0x204 (size before relaxing)
+ .debug_str     0x000006ed      0x24f M25x Loader M25x_AP_256 Release/system_M25x.o
+ .debug_str     0x000006ed      0x20d M25x Loader M25x_AP_256 Release/libmem_m2xx_internal_flash_driver.o
+ .debug_str     0x000006ed      0x243 M25x Loader M25x_AP_256 Release/loader.o
+ .debug_str     0x000006ed      0x389 M25x Loader M25x_AP_256 Release/libmem_flm_driver.o
+ .debug_str     0x000006ed       0xc0 M25x Loader M25x_AP_256 Release/M2xx_Startup.o
+ .debug_str     0x000006ed       0x8c M25x Loader M25x_AP_256 Release/thumb_crt0.o
 
 .comment        0x00000000       0x3d
- .comment       0x00000000       0x3d M2xx Loader M2xx_AP_256 Release/M2xx_AP_256_flm.o
+ .comment       0x00000000       0x3d M25x Loader M25x_AP_256 Release/M25x_AP_256_flm.o
                                  0x3e (size before relaxing)
- .comment       0x0000003d       0x3e M2xx Loader M2xx_AP_256 Release/system.o
- .comment       0x0000003d       0x3e M2xx Loader M2xx_AP_256 Release/libmem_m2xx_internal_flash_driver.o
- .comment       0x0000003d       0x3e M2xx Loader M2xx_AP_256 Release/loader.o
- .comment       0x0000003d       0x3e M2xx Loader M2xx_AP_256 Release/libmem_flm_driver.o
+ .comment       0x0000003d       0x3e M25x Loader M25x_AP_256 Release/system_M25x.o
+ .comment       0x0000003d       0x3e M25x Loader M25x_AP_256 Release/libmem_m2xx_internal_flash_driver.o
+ .comment       0x0000003d       0x3e M25x Loader M25x_AP_256 Release/loader.o
+ .comment       0x0000003d       0x3e M25x Loader M25x_AP_256 Release/libmem_flm_driver.o
  .comment       0x0000003d       0x3e /usr/share/crossworks_for_arm_5.1/lib/libmem_v8mbl_t_le_eabi_small.a(libmem_unity.o)
 
 .ARM.attributes
                 0x00000000       0x30
  .ARM.attributes
-                0x00000000       0x32 M2xx Loader M2xx_AP_256 Release/M2xx_AP_256_flm.o
+                0x00000000       0x32 M25x Loader M25x_AP_256 Release/M25x_AP_256_flm.o
  .ARM.attributes
-                0x00000032       0x32 M2xx Loader M2xx_AP_256 Release/system.o
+                0x00000032       0x32 M25x Loader M25x_AP_256 Release/system_M25x.o
  .ARM.attributes
-                0x00000064       0x32 M2xx Loader M2xx_AP_256 Release/libmem_m2xx_internal_flash_driver.o
+                0x00000064       0x32 M25x Loader M25x_AP_256 Release/libmem_m2xx_internal_flash_driver.o
  .ARM.attributes
-                0x00000096       0x32 M2xx Loader M2xx_AP_256 Release/loader.o
+                0x00000096       0x32 M25x Loader M25x_AP_256 Release/loader.o
  .ARM.attributes
-                0x000000c8       0x32 M2xx Loader M2xx_AP_256 Release/libmem_flm_driver.o
+                0x000000c8       0x32 M25x Loader M25x_AP_256 Release/libmem_flm_driver.o
  .ARM.attributes
-                0x000000fa       0x20 M2xx Loader M2xx_AP_256 Release/M2xx_Startup.o
+                0x000000fa       0x20 M25x Loader M25x_AP_256 Release/M2xx_Startup.o
  .ARM.attributes
-                0x0000011a       0x20 M2xx Loader M2xx_AP_256 Release/thumb_crt0.o
+                0x0000011a       0x20 M25x Loader M25x_AP_256 Release/thumb_crt0.o
  .ARM.attributes
                 0x0000013a       0x32 /usr/share/crossworks_for_arm_5.1/lib/libmem_v8mbl_t_le_eabi_small.a(libmem_unity.o)
  .ARM.attributes
@@ -4213,9 +4212,9 @@ LOAD linker stubs
  .stack_sizes   0x0000001e        0x5 /usr/share/crossworks_for_arm_5.1/lib/libmem_v8mbl_t_le_eabi_small.a(libmem_unity.o)
  .stack_sizes   0x00000023        0x5 /usr/share/crossworks_for_arm_5.1/lib/libmem_v8mbl_t_le_eabi_small.a(libmem_unity.o)
 
-.debug_frame    0x00000000      0x284
- .debug_frame   0x00000000       0x80 M2xx Loader M2xx_AP_256 Release/M2xx_AP_256_flm.o
- .debug_frame   0x00000080       0x30 M2xx Loader M2xx_AP_256 Release/system.o
- .debug_frame   0x000000b0       0x30 M2xx Loader M2xx_AP_256 Release/libmem_m2xx_internal_flash_driver.o
- .debug_frame   0x000000e0       0x2c M2xx Loader M2xx_AP_256 Release/loader.o
- .debug_frame   0x0000010c      0x178 M2xx Loader M2xx_AP_256 Release/libmem_flm_driver.o
+.debug_frame    0x00000000      0x2d0
+ .debug_frame   0x00000000       0xb0 M25x Loader M25x_AP_256 Release/M25x_AP_256_flm.o
+ .debug_frame   0x000000b0       0x4c M25x Loader M25x_AP_256 Release/system_M25x.o
+ .debug_frame   0x000000fc       0x30 M25x Loader M25x_AP_256 Release/libmem_m2xx_internal_flash_driver.o
+ .debug_frame   0x0000012c       0x2c M25x Loader M25x_AP_256 Release/loader.o
+ .debug_frame   0x00000158      0x178 M25x Loader M25x_AP_256 Release/libmem_flm_driver.o

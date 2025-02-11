@@ -13,12 +13,18 @@
  <Project>
   <ProjectSessionItem path="Nuvoton_M2xx"/>
   <ProjectSessionItem path="Nuvoton_M2xx;Nuvoton_M2xx"/>
+  <ProjectSessionItem path="Nuvoton_M2xx;Nuvoton_M2xx;packages"/>
   <ProjectSessionItem path="Nuvoton_M2xx;Nuvoton_M2xx;targets"/>
   <ProjectSessionItem path="Nuvoton_M2xx;Nuvoton_M2xx;targets;M2xx"/>
-  <ProjectSessionItem path="Nuvoton_M2xx;Nuvoton_M2xx;targets;M2xx;XML"/>
+  <ProjectSessionItem path="Nuvoton_M2xx;Nuvoton_M2xx;targets;M2xx;CMSIS"/>
+  <ProjectSessionItem path="Nuvoton_M2xx;Nuvoton_M2xx;targets;M2xx;CMSIS;Device"/>
+  <ProjectSessionItem path="Nuvoton_M2xx;Nuvoton_M2xx;targets;M2xx;CMSIS;Device;M25x"/>
+  <ProjectSessionItem path="Nuvoton_M2xx;Nuvoton_M2xx;targets;M2xx;CMSIS;Device;M25x;Source"/>
+  <ProjectSessionItem path="Nuvoton_M2xx;Nuvoton_M2xx;targets;M2xx;CMSIS;StdDriver"/>
+  <ProjectSessionItem path="Nuvoton_M2xx;Nuvoton_M2xx;targets;M2xx;CMSIS;StdDriver;M25x"/>
+  <ProjectSessionItem path="Nuvoton_M2xx;Nuvoton_M2xx;targets;M2xx;Loader"/>
   <ProjectSessionItem path="Nuvoton_M2xx;Nuvoton_M2xx;targets;M2xx;Source"/>
-  <ProjectSessionItem path="Nuvoton_M2xx;Nuvoton_M2xx;targets;M2xx;Scripts"/>
-  <ProjectSessionItem path="Nuvoton_M2xx;Nuvoton_M2xx;packages"/>
+  <ProjectSessionItem path="Nuvoton_M2xx;Nuvoton_M2xx;targets;M2xx;XML"/>
   <SourceCodeControlLogin password="F9BB6682F5D56822" user="Yoon-Ki Hong &lt;mymy49@nate.com>"/>
  </Project>
  <Register1/>
@@ -45,14 +51,13 @@
   <Watches active="0" update="Never"/>
  </Watch4>
  <Files>
-  <SessionOpenFile windowGroup="DockEditLeft" x="22" y="3" useTextEdit="1" path="packages/M2xx_package.xml" left="36" top="0" codecName="Default"/>
-  <SessionOpenFile windowGroup="DockEditLeft" x="144" y="117" useTextEdit="1" path="targets/M2xx/XML/project_templates.xml" left="0" top="87" codecName="Default"/>
-  <SessionOpenFile windowGroup="DockEditLeft" x="537" y="11" useTextEdit="1" path="targets/M2xx/XML/property_groups.xml" left="140" top="0" codecName="Default"/>
-  <SessionOpenFile windowGroup="DockEditLeft" x="21" y="30" useTextEdit="1" path="targets/M2xx/Scripts/M2xx_Target.js" left="0" top="18" codecName="Default"/>
-  <SessionOpenFile windowGroup="DockEditLeft" x="21" y="1" useTextEdit="1" path="targets/M2xx/XML/M251KG6AE_MemoryMap.xml" left="0" top="0" codecName="Default"/>
-  <SessionOpenFile windowGroup="DockEditLeft" x="15" y="5" useTextEdit="1" path="targets/M2xx/XML/M25x_v1_Registers.xml" left="0" selected="1" top="0" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="11" y="6" useTextEdit="1" path="packages/M2xx_package.xml" left="4" selected="1" top="0" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="70" y="32" useTextEdit="1" path="targets/M2xx/XML/project_templates.xml" left="0" top="19" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="48" y="6" useTextEdit="1" path="targets/M2xx/XML/property_groups.xml" left="0" top="0" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="5" y="16" useTextEdit="1" path="targets/M2xx/Scripts/M2xx_Target.js" left="0" top="1" codecName="Default"/>
   <SessionOpenFile windowGroup="DockEditLeft" x="0" y="0" useTextEdit="1" path="targets/M2xx/Source/start.s" left="0" top="0" codecName="Default"/>
   <SessionOpenFile windowGroup="DockEditLeft" x="0" y="60" useTextEdit="1" path="targets/M2xx/Source/M2xx_Startup.s" left="0" top="57" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="0" useTextEdit="1" path="targets/M2xx/Source/M251_v1_Vectors.s" left="0" top="0" codecName="Default"/>
  </Files>
- <ARMCrossStudioWindow activeProject="Nuvoton_M2xx" fileDialogDefaultFilter="*.c" autoConnectTarget="" buildConfiguration="Common" sessionSettings="" debugSearchFileMap="" fileDialogInitialDirectory="" debugSearchPath="" autoConnectCapabilities="0"/>
+ <ARMCrossStudioWindow activeProject="Nuvoton_M2xx" fileDialogDefaultFilter="*.c" autoConnectTarget="" buildConfiguration="Common" sessionSettings="" debugSearchFileMap="C:\Work_Data\SWICE_code\6894\WinApp\KeilDll_Installer\Flash_Src\NuMicroM4_KEIL/FlashPrg.c&#xa;" fileDialogInitialDirectory="" debugSearchPath="" autoConnectCapabilities="0"/>
 </session>

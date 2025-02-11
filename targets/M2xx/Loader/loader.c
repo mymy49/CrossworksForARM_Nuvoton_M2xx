@@ -18,8 +18,7 @@ extern uint8_t __RAM_segment_start__;
 extern uint8_t __RAM_segment_used_end__;
 extern uint8_t __RAM_segment_end__;
 
-int
-main(uint32_t flags, uint32_t param)
+int main(uint32_t flags, uint32_t param)
 {
   int res;
   uint32_t fosc = flags & LIBMEM_RPC_LOADER_FLAG_PARAM ? param : 0;
@@ -30,9 +29,9 @@ main(uint32_t flags, uint32_t param)
   if ((flags & LIBMEM_RPC_LOADER_FLAG_PRESERVE_STATE) == 0)
     SystemInit();
 
-  /* Register M480 internal FLASH driver */
-  res = libmem_m480_register_internal_flash_driver(&flash1_handle, fosc);
-
+  /* Register M43x internal FLASH driver */
+  res = libmem_m2xx_register_internal_flash_driver(&flash1_handle, fosc);
+	
   /* Start loader */
   if (res == LIBMEM_STATUS_SUCCESS)
     res = libmem_rpc_loader_start(&__RAM_segment_used_end__, &__RAM_segment_end__ - 1);
