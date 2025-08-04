@@ -163,7 +163,7 @@
 		<property name="arm_fp_abi" value="Soft" />
 		<property name="arm_linker_stack_size" value="1024" choose="Yes" />
 		<property name="arm_linker_process_stack_size" value="1024" choose="Yes" />
-		<property name="arm_linker_heap_size" value="16318" choose="Yes" />
+		<property name="arm_linker_heap_size" value="16384" choose="Yes" />
 		<property name="linker_output_format" />
 		<property name="linker_printf_fmt_level" />
 		<property name="linker_printf_width_precision_supported" />
@@ -171,7 +171,7 @@
 		<property name="linker_scanf_fmt_level" />
 		<property name="linker_scanf_fp_enabled" />
 		<property name="linker_scanf_character_group_matching_enabled" />
-		<property name="c_user_include_directories" value="$(ProjectDir)/app/inc;$(ProjectDir)/yss/inc" />
+		<property name="c_user_include_directories" value="$(ProjectDir)/app/inc;$(ProjectDir)/yss/inc;$(TargetsDir)/M2xx/Source/yss/inc" />
 		<property name="property_groups_file_path" value="$(TargetsDir)/M2xx/XML/property_groups.xml" />
 		<property name="gcc_cplusplus_language_standard" value="gnu++11" />
 		<propertygroup name="Target" value="M251KG6AE" choose="Yes" />
@@ -190,9 +190,17 @@
 				<property name="file_type" value="Reset Script" />
 			</file>
 		</folder>
-		<folder name="APP Source Files" path="app" filter="*.c;*.cpp;*.h;*.s" recurse="yes">
+		<folder name="APP Source Files">
+			<folder name="src">
+				<file name="$(ProjectDir)/app/src/main.cpp" source="$(TargetsDir)/M2xx/Source/app/src/main.cpp" />
+				<file name="$(ProjectDir)/app/src/bsp.cpp" source="$(TargetsDir)/M2xx/Source/app/src/bsp.cpp" />
+			</folder>
+			<folder name="inc">
+				<file name="$(ProjectDir)/app/inc/bsp.h" source="$(TargetsDir)/M2xx/Source/app/inc/bsp.h" />
+				<file name="$(ProjectDir)/app/inc/config.h" source="$(TargetsDir)/M2xx/Source/app/inc/config.h" />
+			</folder>
 		</folder>
-		<folder name="yss OS Source Files" path="yss" filter="*.c;*.cpp;*.h;*.s" recurse="yes">
+		<folder name="yss OS Source Files" path="$(TargetsDir)/M2xx/Source/yss" filter="*.c;*.cpp;*.h;*.s;*.md;LICENSE" recurse="yes">
 		</folder>
 		<folder name="System Files">
 			<file name="$(StudioDir)/source/thumb_crt0.s" expand="no">

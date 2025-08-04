@@ -17,13 +17,13 @@
   <ProjectSessionItem path="Nuvoton_M2xx;Nuvoton_M2xx;targets"/>
   <ProjectSessionItem path="Nuvoton_M2xx;Nuvoton_M2xx;targets;M2xx"/>
   <ProjectSessionItem path="Nuvoton_M2xx;Nuvoton_M2xx;targets;M2xx;CMSIS"/>
-  <ProjectSessionItem path="Nuvoton_M2xx;Nuvoton_M2xx;targets;M2xx;CMSIS;Device"/>
-  <ProjectSessionItem path="Nuvoton_M2xx;Nuvoton_M2xx;targets;M2xx;CMSIS;Device;M25x"/>
-  <ProjectSessionItem path="Nuvoton_M2xx;Nuvoton_M2xx;targets;M2xx;CMSIS;Device;M25x;Source"/>
-  <ProjectSessionItem path="Nuvoton_M2xx;Nuvoton_M2xx;targets;M2xx;CMSIS;StdDriver"/>
-  <ProjectSessionItem path="Nuvoton_M2xx;Nuvoton_M2xx;targets;M2xx;CMSIS;StdDriver;M25x"/>
-  <ProjectSessionItem path="Nuvoton_M2xx;Nuvoton_M2xx;targets;M2xx;Loader"/>
+  <ProjectSessionItem path="Nuvoton_M2xx;Nuvoton_M2xx;targets;M2xx;Scripts"/>
   <ProjectSessionItem path="Nuvoton_M2xx;Nuvoton_M2xx;targets;M2xx;Source"/>
+  <ProjectSessionItem path="Nuvoton_M2xx;Nuvoton_M2xx;targets;M2xx;Source;app"/>
+  <ProjectSessionItem path="Nuvoton_M2xx;Nuvoton_M2xx;targets;M2xx;Source;app;inc"/>
+  <ProjectSessionItem path="Nuvoton_M2xx;Nuvoton_M2xx;targets;M2xx;Source;app;inc;dev"/>
+  <ProjectSessionItem path="Nuvoton_M2xx;Nuvoton_M2xx;targets;M2xx;Source;app;src"/>
+  <ProjectSessionItem path="Nuvoton_M2xx;Nuvoton_M2xx;targets;M2xx;Source;yss"/>
   <ProjectSessionItem path="Nuvoton_M2xx;Nuvoton_M2xx;targets;M2xx;XML"/>
   <SourceCodeControlLogin password="F9BB6682F5D56822" user="Yoon-Ki Hong &lt;mymy49@nate.com>"/>
  </Project>
@@ -51,13 +51,19 @@
   <Watches active="0" update="Never"/>
  </Watch4>
  <Files>
-  <SessionOpenFile windowGroup="DockEditLeft" x="11" y="6" useTextEdit="1" path="packages/M2xx_package.xml" left="4" selected="1" top="0" codecName="Default"/>
-  <SessionOpenFile windowGroup="DockEditLeft" x="70" y="32" useTextEdit="1" path="targets/M2xx/XML/project_templates.xml" left="0" top="19" codecName="Default"/>
-  <SessionOpenFile windowGroup="DockEditLeft" x="48" y="6" useTextEdit="1" path="targets/M2xx/XML/property_groups.xml" left="0" top="0" codecName="Default"/>
-  <SessionOpenFile windowGroup="DockEditLeft" x="5" y="16" useTextEdit="1" path="targets/M2xx/Scripts/M2xx_Target.js" left="0" top="1" codecName="Default"/>
-  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="0" useTextEdit="1" path="targets/M2xx/Source/start.s" left="0" top="0" codecName="Default"/>
-  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="60" useTextEdit="1" path="targets/M2xx/Source/M2xx_Startup.s" left="0" top="57" codecName="Default"/>
-  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="0" useTextEdit="1" path="targets/M2xx/Source/M251_v1_Vectors.s" left="0" top="0" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="13" useTextEdit="1" path="packages/M2xx_package.xml" left="53" selected="1" top="0" codecName="UTF-8"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="21" useTextEdit="1" path="targets/M2xx/XML/property_groups.xml" left="0" top="12" codecName="UTF-8"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="5" y="16" useTextEdit="1" path="targets/M2xx/Scripts/M2xx_Target.js" left="0" top="16" codecName="UTF-8"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="0" useTextEdit="1" path="targets/M2xx/Source/start.s" left="0" top="0" codecName="UTF-8"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="60" useTextEdit="1" path="targets/M2xx/Source/M2xx_Startup.s" left="0" top="57" codecName="UTF-8"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="0" useTextEdit="1" path="targets/M2xx/Source/M251_v1_Vectors.s" left="0" top="0" codecName="UTF-8"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="0" useTextEdit="1" path="targets/M2xx/Source/system.c" left="0" top="0" codecName="UTF-8"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="0" useTextEdit="1" path="targets/M2xx/Source/main.c" left="0" top="0" codecName="UTF-8"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="27" y="78" useTextEdit="1" path="targets/M2xx/Source/app/inc/config.h" left="0" top="34" codecName="UTF-8"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="11" useTextEdit="1" path="targets/M2xx/Source/app/inc/bsp.h" left="0" top="0" codecName="UTF-8"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="14" y="12" useTextEdit="1" path="targets/M2xx/Source/app/src/main.cpp" left="0" top="1" codecName="UTF-8"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="15" useTextEdit="1" path="targets/M2xx/Source/app/src/bsp.cpp" left="0" top="0" codecName="UTF-8"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="52" y="165" useTextEdit="1" path="targets/M2xx/XML/project_templates.xml" left="0" top="160" codecName="UTF-8"/>
  </Files>
  <ARMCrossStudioWindow activeProject="Nuvoton_M2xx" fileDialogDefaultFilter="*.c" autoConnectTarget="" buildConfiguration="Common" sessionSettings="" debugSearchFileMap="C:\Work_Data\SWICE_code\6894\WinApp\KeilDll_Installer\Flash_Src\NuMicroM4_KEIL/FlashPrg.c&#xa;" fileDialogInitialDirectory="" debugSearchPath="" autoConnectCapabilities="0"/>
 </session>

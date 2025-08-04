@@ -1,5 +1,5 @@
 <!DOCTYPE CrossStudio_Package_Description_File>
-<package crossstudio_versions="8:4-" version="0.1" dependencies="CMSIS" filetype="hzq" cpu_family="M2xx" author="Yoon-Ki Hong" name="M2xx" cpu_manufacturer="Nuvoton" build_version="2025021100.00024;crossworks_v4;crossworks_v4" date="2024-10-25T00:00:00">
+<package crossstudio_versions="8:4-" version="0.1" dependencies="CMSIS" filetype="hzq" cpu_family="M2xx" author="Yoon-Ki Hong" name="M2xx" cpu_manufacturer="Nuvoton" build_version="2025080300.00035;crossworks_v4;crossworks_v4" date="2024-10-25T00:00:00">
 	<history>
 		<version name="0.1">
 			<description>Initial Release.</description>
